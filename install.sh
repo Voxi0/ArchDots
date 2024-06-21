@@ -43,8 +43,10 @@ cd ~/Downloads/ && git clone https://github.com/mino29/tokyo-night-grub.git
 sudo cp -r tokyo-night-grub/tokyo-night /usr/share/grub/themes/
 rm -rf tokyo-night-grub
 
-# Generate a New ED25519 SSH Key
+# Generate a New ED25519 SSH Key and Configure Git
 ssh-keygen -t ed25519 -C "alif200099@gmail.com"
+git config --global user.name "Voxi0"
+git config --global user.email "alif2000099@gmail.com"
 
 # Enable Firewall
 sudo ufw enable && sudo ufw allow ssh && sudo ufw status verbose
