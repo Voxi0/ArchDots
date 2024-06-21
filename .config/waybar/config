@@ -1,0 +1,44 @@
+{
+    // Position and Layer
+    "layer": "top",
+    "position": "top",
+
+    // Height
+    "height": 40,
+
+    // Modules
+    "modules-left": ["hyprland/workspaces"],
+    "modules-center": ["clock"],
+    "modules-right": ["network", "temperature", "pulseaudio", "backlight", "battery", "tray"],
+
+    // Clock Config
+    "clock": {
+        "format": "{:%H:%M}",
+        "format-alt": "{:%A %d %B %Y}"
+    },
+
+    // Temperature Config
+    "temperature": {
+        "format": "{temperatureC}°C "
+    },
+
+    // Pulseaudio Config
+    "pulseaudio": {
+        "format": "{volume}% 󰕾"
+    },
+
+    // Backlight Config
+    "backlight": {
+        "format": "{percent}% 󰃞"
+    },
+
+    // Internet Config
+    "network": {
+        "format-wifi": "{essid} ({signalStrength}%)"
+    },
+
+    // Battery Config
+    "battery": {
+        "format": "󰁹 {capacity}%"
+    }
+}

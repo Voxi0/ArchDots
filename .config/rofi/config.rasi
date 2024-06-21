@@ -1,0 +1,24 @@
+@theme "catppuccin-mocha.rasi"
+configuration {
+	/* Mode */
+	modes: "drun,window";
+	display-drun: "Search:";
+	drun-display-format: "{icon} {name}";
+	display-window: "Windows";
+
+	/* Font */
+	font: "JetBrainsMono Nerd Font Regular 10";
+	
+	/* Position */
+    yoffset: 0;
+	xoffset: 0;
+
+	/* Icons */
+	show-icons: true;
+	icon-theme: "Papirus";
+}
+
+* {
+	/* Dimensions */
+	width: 600;
+}

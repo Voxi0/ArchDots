@@ -1,0 +1,62 @@
+# GRUB Bootloader Config
+# Default Highlighted Bootmenu Entry
+GRUB_DEFAULT=0
+
+# Time in Seconds Before GRUB Boots Highlighted Entry
+GRUB_TIMEOUT=5
+
+# GRUB Distributor and Command Line Flags
+GRUB_DISTRIBUTOR="Arch"
+GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 quiet"
+GRUB_CMDLINE_LINUX="rootfstype=ext4"
+
+# Preload Both GPT and MBR Modules so That THey Aren't Missed
+GRUB_PRELOAD_MODULES="part_gpt part_msdos"
+
+# Uncomment to Enable Booting From LUKS Encrypted Devices
+#GRUB_ENABLE_CRYPTODISK=y
+
+# Set to 'countdown' or 'hidden' to Change Timeout Behavior, Press Escape Key to Display Menu
+GRUB_TIMEOUT_STYLE=menu
+
+# Uncomment to Use Basic Console
+GRUB_TERMINAL_INPUT=console
+
+# Uncomment to Disable Graphical Terminal
+#GRUB_TERMINAL_OUTPUT=console
+
+# The Resolution of The Graphical Terminal
+# NOTE: You Can Use Only Modes Which You Graphics Card Supports Via VBE. You Can See Them in Real GRUB With The Command 'videoinfo'
+GRUB_GFXMODE=auto
+
+# Uncomment to Allow The Kernel to Use The Same Resolution Used by Grub
+GRUB_GFXPAYLOAD_LINUX=keep
+
+# Uncomment if You Want GRUB to Pass to The Linux Kernel The Old Parameter
+# format "root=/dev/xxx" instead of "root=/dev/disk/by-uuid/xxx"
+#GRUB_DISABLE_LINUX_UUID=true
+
+# Uncomment to Disable Generation of Recovery Mode Meny Entries
+GRUB_DISABLE_RECOVERY=true
+
+# Uncomment and Set to The Desired Menu Colors. Used by Both Normal and Wallpaper Modes Only
+# Entries Are Specified as Foreground/Background
+#GRUB_COLOR_NORMAL="light-blue/black"
+#GRUB_COLOR_HIGHLIGHT="light-cyan/blue"
+
+# Uncomment One of Them For The GFX Desired, An Image Background or a Theme
+#GRUB_BACKGROUND="/path/to/wallpaper"
+GRUB_THEME="/usr/share/grub/themes/tokyo-night/theme.txt"
+
+# Uncomment to Get A Beep at GRUB Start
+# GRUB_INIT_TUNE="480 440 1"
+
+# Uncomment to Make GRUB Remember The Last Selection. This Requires Setting 'GRUB_DEFAULT=saved' Above
+#GRUB_SAVEDEFAULT=true
+
+# Uncomment to Disable Submenus in Bootmenu
+#GRUB_DISABLE_SUBMENU=y
+
+# Probing For Other Operating Systems is Disabled For Security Reasons.
+# If You Still Want This Functionality, Uncomment to Detect and Include Other Operating Systems
+#GRUB_DISABLE_OS_PROBER=false
