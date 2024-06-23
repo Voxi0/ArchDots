@@ -2,7 +2,7 @@
 sudo pacman -Syy && sudo pacman -Syu
 
 # Move Pacman Config File to System
-sudo cp pacman.conf /etc/
+sudo mv pacman.conf /etc/
 
 # Install Packages
 # Base
@@ -17,6 +17,8 @@ sudo pacman -S ttf-jetbrains-mono-nerd ttf-cascadia-code-nerd font-manager
 
 # CLI Utils
 sudo pacman -S neofetch imagemagick btop acpi unzip grim slurp neovim
+
+# Dev Tools
 sudo pacman -S openssh git gcc cmake wget curl
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
@@ -32,11 +34,11 @@ sudo pacman -S qt5-quickcontrols2 qt5-graphicaleffects qt5-svg
 sudo pacman -S sddm
 
 # Install SDDM Tokyo Night Theme
-sudo cp -r ./tokyo-night-sddm /usr/share/sddm/themes/
+sudo mv ./tokyo-night-sddm /usr/share/sddm/themes/
 
 # Install GRUB Tokyo Night Theme
 git clone https://github.com/mino29/tokyo-night-grub.git
-sudo cp -r tokyo-night-grub/tokyo-night /usr/share/grub/themes/
+sudo mv tokyo-night-grub/tokyo-night /usr/share/grub/themes/
 rm -rf tokyo-night-grub
 
 # Generate a New ED25519 SSH Key and Configure Git
@@ -48,12 +50,12 @@ git config --global user.email "alif2000099@gmail.com"
 sudo ufw enable && sudo ufw allow ssh && sudo ufw status verbose
 
 # Move Config Files to System
-sudo cp ./grub /etc/default/
+sudo mv ./grub /etc/default/ && sudo mv ./sddm.conf /etc/ && sudo mv ./index.theme /usr/share/icons/default/
+sudo rm -rf ~/.config && sudo mv ./.config ~/
+sudo mv ./Pictures ~/ && sudo mv ./Documents ~/
+
+# Regenerate Grub Config
 sudo grub-mkconfig -o /boot/grub/grub.cfg
-sudo cp ./sddm.conf /etc/
-sudo cp ./index.theme /usr/share/icons/default/
-sudo rm -rf ~/.config && sudo cp -r ./.config ~/
-sudo cp -r ./Pictures ~/
 
 # Add User to Groups
 sudo usermod -aG video voxi0
