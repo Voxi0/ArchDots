@@ -2,7 +2,7 @@
 sudo pacman -Syy && sudo pacman -Syu
 
 # Move Pacman Config File to System
-sudo mv pacman.conf /etc/
+sudo cp pacman.conf /etc/
 
 # Install Packages
 # Base
@@ -23,7 +23,7 @@ sudo pacman -S openssh git gcc cmake wget curl
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 # Install Yay AUR Package Manager
-git clone https://aur.archlinux.org/yay.git && makepkg -sic
+#git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -sic && cd ..
 rm -rf yay
 
 # Install AUR Packages
@@ -34,20 +34,20 @@ sudo pacman -S qt5-quickcontrols2 qt5-graphicaleffects qt5-svg
 sudo pacman -S sddm
 
 # Install SDDM Tokyo Night Theme
-sudo mv ./tokyo-night-sddm /usr/share/sddm/themes/
+sudo cp -r ./TokyoNight-SDDM /usr/share/sddm/themes/
 
 # Install GRUB Tokyo Night Theme
 git clone https://github.com/mino29/tokyo-night-grub.git
-sudo mv tokyo-night-grub/tokyo-night /usr/share/grub/themes/
+sudo cp -r tokyo-night-grub/tokyo-night /usr/share/grub/themes/
 rm -rf tokyo-night-grub
 
 # Enable Firewall
 sudo ufw enable && sudo ufw allow ssh && sudo ufw status verbose
 
 # Move Config Files to System
-sudo mv ./grub /etc/default/ && sudo mv ./sddm.conf /etc/ && sudo mv ./index.theme /usr/share/icons/default/
-sudo rm -rf ~/.config && sudo mv ./.config ~/
-sudo mv ./Pictures ~/ && sudo mv ./Documents ~/
+sudo cp ./grub /etc/default/ && sudo cp ./sddm.conf /etc/ && sudo cp ./index.theme /usr/share/icons/default/
+sudo rm -rf ~/.config && sudo cp -r ./.config ~/
+sudo cp -r ./Pictures ~/ && sudo cp -r ./Documents ~/
 
 # Regenerate Grub Config
 sudo grub-mkconfig -o /boot/grub/grub.cfg
@@ -60,4 +60,5 @@ sudo usermod -aG uucp voxi0
 sudo systemctl enable sddm.service
 
 # End
-echo "\nArchDots Installed! You Should Probably Reboot Your System Now."
+echo && echo
+echo "ArchDots Installed! You Should Probably Reboot Your System Now."
