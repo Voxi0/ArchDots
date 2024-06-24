@@ -23,7 +23,7 @@ sudo pacman -S openssh git gcc cmake wget curl
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 # Install Yay AUR Package Manager
-#git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -sic && cd ..
+git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -sic && cd ..
 rm -rf yay
 
 # Install AUR Packages
