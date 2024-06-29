@@ -1,0 +1,5 @@
+2024-06-29 17:20:44.107 [info] Started local extension host with pid 27602.
+2024-06-29 17:20:44.301 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-06-29 17:20:49.580 [info] [perf] Render performance baseline is 78ms
+2024-06-29 17:26:25.079 [warning] Semantic token with invalid length detected at lineNumber 73, column 1
+2024-06-29 17:34:57.291 [warning] Overlapping semantic tokens detected at lineNumber 66, column 70

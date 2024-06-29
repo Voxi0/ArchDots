@@ -1,0 +1,116 @@
+[proc] Executing command: /usr/bin/cmake --version
+[proc] Executing command: /usr/bin/cmake -E capabilities
+[variant] Loaded new set of variants
+[kit] Successfully loaded 1 kits from /home/voxi0/.local/share/CMakeTools/cmake-tools-kits.json
+[proc] The command: ninja --version failed with error: Error: spawn ninja ENOENT
+[proc] The command: ninja-build --version failed with error: Error: spawn ninja-build ENOENT
+[proc] Executing command: /usr/bin/cmake -S/home/voxi0/Desktop/C/learningC -B/home/voxi0/Desktop/C/learningC/build -G "Unix Makefiles"
+[main] Configuring project: learningC 
+[proc] Executing command: /usr/bin/cmake --no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -S/home/voxi0/Desktop/C/learningC -B/home/voxi0/Desktop/C/learningC/build -G "Unix Makefiles"
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- Configuring done (0.0s)
+[cmake] -- Generating done (0.0s)
+[cmake] -- Build files have been written to: /home/voxi0/Desktop/C/learningC/build
+[driver] Switching to kit: GCC 14.1.1 x86_64-pc-linux-gnu
+[proc] Executing command: /usr/bin/gcc -v
+[proc] The command: ninja --version failed with error: Error: spawn ninja ENOENT
+[proc] The command: ninja-build --version failed with error: Error: spawn ninja-build ENOENT
+[driver] Removing /home/voxi0/Desktop/C/learningC/build/CMakeCache.txt
+[driver] Removing /home/voxi0/Desktop/C/learningC/build/CMakeFiles
+[main] Configuring project: learningC 
+[proc] Executing command: /usr/bin/cmake --no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ -S/home/voxi0/Desktop/C/learningC -B/home/voxi0/Desktop/C/learningC/build -G "Unix Makefiles"
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- The C compiler identification is GNU 14.1.1
+[cmake] -- Detecting C compiler ABI info
+[cmake] -- Detecting C compiler ABI info - done
+[cmake] -- Check for working C compiler: /usr/bin/gcc - skipped
+[cmake] -- Detecting C compile features
+[cmake] -- Detecting C compile features - done
+[cmake] -- Configuring done (0.4s)
+[cmake] -- Generating done (0.0s)
+[cmake] -- Build files have been written to: /home/voxi0/Desktop/C/learningC/build
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.248
+[build] Build finished with exit code 0
+[main] Configuring project: learningC 
+[proc] Executing command: /usr/bin/cmake --no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ -S/home/voxi0/Desktop/C/learningC -B/home/voxi0/Desktop/C/learningC/build -G "Unix Makefiles"
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- Configuring done (0.0s)
+[cmake] -- Generating done (0.0s)
+[cmake] -- Build files have been written to: /home/voxi0/Desktop/C/learningC/build
+[main] Configuring project: learningC 
+[proc] Executing command: /usr/bin/cmake --no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ -S/home/voxi0/Desktop/C/learningC -B/home/voxi0/Desktop/C/learningC/build -G "Unix Makefiles"
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- Configuring done (0.0s)
+[cmake] -- Generating done (0.0s)
+[cmake] -- Build files have been written to: /home/voxi0/Desktop/C/learningC/build
+[main] Configuring project: learningC 
+[proc] Executing command: /usr/bin/cmake --no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ -S/home/voxi0/Desktop/C/learningC -B/home/voxi0/Desktop/C/learningC/build -G "Unix Makefiles"
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- Configuring done (0.0s)
+[cmake] CMake Error at CMakeLists.txt:10 (add_executable):
+[cmake]   C_STANDARD is set to invalid value '18'
+[cmake] 
+[cmake] 
+[cmake] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[cmake] -- Generating done (0.0s)
+[proc] The command: /usr/bin/cmake --no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ -S/home/voxi0/Desktop/C/learningC -B/home/voxi0/Desktop/C/learningC/build -G "Unix Makefiles" exited with code: 1
+[main] Configuring project: learningC 
+[proc] Executing command: /usr/bin/cmake --no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ -S/home/voxi0/Desktop/C/learningC -B/home/voxi0/Desktop/C/learningC/build -G "Unix Makefiles"
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- Configuring done (0.0s)
+[cmake] -- Generating done (0.0s)
+[cmake] -- Build files have been written to: /home/voxi0/Desktop/C/learningC/build
+[main] Configuring project: learningC 
+[proc] Executing command: /usr/bin/cmake --no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ -S/home/voxi0/Desktop/C/learningC -B/home/voxi0/Desktop/C/learningC/build -G "Unix Makefiles"
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- Configuring done (0.0s)
+[cmake] -- Generating done (0.0s)
+[cmake] -- Build files have been written to: /home/voxi0/Desktop/C/learningC/build
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.223
+[build] Build finished with exit code 0
+[main] Configuring project: learningC 
+[proc] Executing command: /usr/bin/cmake --no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ -S/home/voxi0/Desktop/C/learningC -B/home/voxi0/Desktop/C/learningC/build -G "Unix Makefiles"
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- Configuring done (0.0s)
+[cmake] -- Generating done (0.0s)
+[cmake] -- Build files have been written to: /home/voxi0/Desktop/C/learningC/build
+[main] Configuring project: learningC 
+[proc] Executing command: /usr/bin/cmake --no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ -S/home/voxi0/Desktop/C/learningC -B/home/voxi0/Desktop/C/learningC/build -G "Unix Makefiles"
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- Configuring done (0.0s)
+[cmake] -- Generating done (0.0s)
+[cmake] -- Build files have been written to: /home/voxi0/Desktop/C/learningC/build
+[main] Configuring project: learningC 
+[proc] Executing command: /usr/bin/cmake --no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ -S/home/voxi0/Desktop/C/learningC -B/home/voxi0/Desktop/C/learningC/build -G "Unix Makefiles"
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- Configuring done (0.0s)
+[cmake] -- Generating done (0.0s)
+[cmake] -- Build files have been written to: /home/voxi0/Desktop/C/learningC/build
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.206
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.217
+[build] Build finished with exit code 0

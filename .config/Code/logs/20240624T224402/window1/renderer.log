@@ -1,0 +1,89 @@
+2024-06-24 22:44:04.024 [info] Started local extension host with pid 36007.
+2024-06-24 22:44:07.436 [info] [perf] Render performance baseline is 66ms
+2024-06-24 22:44:15.413 [info] Started local extension host with pid 36094.
+2024-06-24 22:44:18.175 [info] [perf] Render performance baseline is 66ms
+2024-06-24 22:44:35.472 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-06-24 22:45:38.024 [error] Method not found: toJSON: CodeExpectedError: Method not found: toJSON
+    at Object.call (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:44:5381)
+    at P.s (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:42:5444)
+    at P.q (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:42:4899)
+    at v.value (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:42:4208)
+    at s.y (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:37:682)
+    at s.z (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:37:757)
+    at s.fire (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:37:976)
+    at v.value (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:33:29202)
+    at s.y (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:37:682)
+    at s.fire (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:37:905)
+    at v.value (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:33:29405)
+    at s.y (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:37:682)
+    at s.fire (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:37:905)
+    at $e (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:33:31818)
+    at IpcMainImpl.c (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:44:19580)
+    at IpcMainImpl.emit (node:events:514:28)
+    at WebContents.<anonymous> (node:electron/js2c/browser_init:2:78003)
+    at WebContents.emit (node:events:514:28)
+2024-06-24 22:45:43.603 [error] [Extension Host] [CMakeTools] 2024-06-24T21:45:43.600Z [fatal] [rollbar] Unhandled exception: Unhandled Promise rejection: build Error: No cache object found {}
+2024-06-24 22:45:43.604 [error] [Extension Host] Error: No cache object found
+	at CMakeFileApiDriver.updateCodeModel (/home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42/dist/main.js:55338:23)
+	at async CMakeFileApiDriver.doInit (/home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42/dist/main.js:55144:38)
+	at async CMakeFileApiDriver._baseInit (/home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42/dist/main.js:54702:9)
+	at async CMakeFileApiDriver.createDerived (/home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42/dist/main.js:54709:9)
+	at async CMakeProject.startNewCMakeDriver (/home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42/dist/main.js:44381:27)
+	at async /home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42/dist/main.js:44640:21
+	at async /home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42/dist/main.js:69390:36
+2024-06-24 22:46:08.666 [error] Method not found: toJSON: CodeExpectedError: Method not found: toJSON
+    at Object.call (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:44:5381)
+    at P.s (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:42:5444)
+    at P.q (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:42:4899)
+    at v.value (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:42:4208)
+    at s.y (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:37:682)
+    at s.z (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:37:757)
+    at s.fire (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:37:976)
+    at v.value (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:33:29202)
+    at s.y (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:37:682)
+    at s.fire (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:37:905)
+    at v.value (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:33:29405)
+    at s.y (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:37:682)
+    at s.fire (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:37:905)
+    at $e (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:33:31818)
+    at IpcMainImpl.c (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:44:19580)
+    at IpcMainImpl.emit (node:events:514:28)
+    at WebContents.<anonymous> (node:electron/js2c/browser_init:2:78003)
+    at WebContents.emit (node:events:514:28)
+2024-06-24 22:46:15.383 [error] Method not found: toJSON: CodeExpectedError: Method not found: toJSON
+    at Object.call (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:44:5381)
+    at P.s (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:42:5444)
+    at P.q (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:42:4899)
+    at v.value (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:42:4208)
+    at s.y (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:37:682)
+    at s.z (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:37:757)
+    at s.fire (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:37:976)
+    at v.value (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:33:29202)
+    at s.y (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:37:682)
+    at s.fire (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:37:905)
+    at v.value (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:33:29405)
+    at s.y (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:37:682)
+    at s.fire (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:37:905)
+    at $e (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:33:31818)
+    at IpcMainImpl.c (/opt/visual-studio-code/resources/app/out/vs/code/electron-main/main.js:44:19580)
+    at IpcMainImpl.emit (node:events:514:28)
+    at WebContents.<anonymous> (node:electron/js2c/browser_init:2:78003)
+    at WebContents.emit (node:events:514:28)
+2024-06-24 22:46:22.773 [error] [Extension Host] [CMakeTools] 2024-06-24T21:46:22.772Z [fatal] [rollbar] Unhandled exception: Unhandled Promise rejection: launchTarget Error: No cache object found {}
+2024-06-24 22:46:22.774 [error] [Extension Host] Error: No cache object found
+	at CMakeFileApiDriver.updateCodeModel (/home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42/dist/main.js:55338:23)
+	at async CMakeFileApiDriver.doInit (/home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42/dist/main.js:55144:38)
+	at async CMakeFileApiDriver._baseInit (/home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42/dist/main.js:54702:9)
+	at async CMakeFileApiDriver.createDerived (/home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42/dist/main.js:54709:9)
+	at async CMakeProject.startNewCMakeDriver (/home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42/dist/main.js:44381:27)
+	at async /home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42/dist/main.js:44640:21
+	at async /home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42/dist/main.js:69390:36
+2024-06-24 22:47:32.113 [error] [Extension Host] [CMakeTools] 2024-06-24T21:47:32.112Z [fatal] [rollbar] Unhandled exception: Unhandled Promise rejection: build Error: No cache object found {}
+2024-06-24 22:47:32.113 [error] [Extension Host] Error: No cache object found
+	at CMakeFileApiDriver.updateCodeModel (/home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42/dist/main.js:55338:23)
+	at async CMakeFileApiDriver.doInit (/home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42/dist/main.js:55144:38)
+	at async CMakeFileApiDriver._baseInit (/home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42/dist/main.js:54702:9)
+	at async CMakeFileApiDriver.createDerived (/home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42/dist/main.js:54709:9)
+	at async CMakeProject.startNewCMakeDriver (/home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42/dist/main.js:44381:27)
+	at async /home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42/dist/main.js:44640:21
+	at async /home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42/dist/main.js:69390:36

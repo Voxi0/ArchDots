@@ -1,0 +1,13 @@
+2024-06-28 17:02:44.295 [info] Extension host with pid 4984 started
+2024-06-28 17:02:44.295 [info] Skipping acquiring lock for /home/voxi0/.config/Code/User/workspaceStorage/de6b909ee36c4bcf79388e30033af070.
+2024-06-28 17:02:44.623 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-06-28 17:02:44.646 [info] ExtensionService#_doActivateExtension evgeniypeshkov.syntax-highlighter, startup: false, activationEvent: 'onLanguage:c'
+2024-06-28 17:02:44.714 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:c'
+2024-06-28 17:02:45.352 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-06-28 17:02:45.362 [info] ExtensionService#_doActivateExtension ms-vscode.cmake-tools, startup: true, activationEvent: 'workspaceContains:CMakeLists.txt'
+2024-06-28 17:02:45.580 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-06-28 17:02:45.641 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-06-28 17:02:48.075 [info] Eager extensions activated
+2024-06-28 17:02:48.134 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-06-28 17:02:48.143 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-06-28 17:02:48.158 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'

@@ -1,0 +1,9 @@
+{
+    "workbench.colorTheme": "Tokyo Night Gogh",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "\"JetBrainsMono Nerd Font\"",
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ]
+}

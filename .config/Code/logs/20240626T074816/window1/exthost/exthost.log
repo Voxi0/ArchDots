@@ -1,0 +1,27 @@
+2024-06-26 07:48:18.687 [info] Extension host with pid 1156 started
+2024-06-26 07:48:18.687 [info] Skipping acquiring lock for /home/voxi0/.config/Code/User/workspaceStorage/de6b909ee36c4bcf79388e30033af070.
+2024-06-26 07:48:18.932 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-06-26 07:48:18.956 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:c'
+2024-06-26 07:48:20.030 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-06-26 07:48:20.038 [info] ExtensionService#_doActivateExtension ms-vscode.cmake-tools, startup: true, activationEvent: 'workspaceContains:CMakeLists.txt'
+2024-06-26 07:48:20.275 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-06-26 07:48:20.326 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-06-26 07:48:21.690 [info] Eager extensions activated
+2024-06-26 07:48:21.820 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-06-26 07:48:21.828 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-06-26 07:48:21.846 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-06-26 07:48:35.208 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-06-26 07:48:35.233 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-06-26 07:50:16.263 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-06-26 07:50:18.967 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-06-26 07:50:23.935 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.extract.function.expandSelection'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-06-26 07:50:27.827 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.extract.function.expandSelection'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-06-26 07:52:36.043 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.extract.function.expandSelection'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-06-26 07:52:39.374 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.extract.function.expandSelection'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-06-26 07:53:00.217 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-06-26 07:54:00.888 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.extract.function.expandSelection'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-06-26 07:54:14.647 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.extract.function.expandSelection'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-06-26 07:54:26.093 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.extract.function.expandSelection'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-06-26 07:55:04.412 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.extract.function.expandSelection'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-06-26 07:55:35.511 [info] Extension host terminating: renderer closed the MessagePort
+2024-06-26 07:55:35.616 [info] Extension host with pid 1156 exiting with code 0

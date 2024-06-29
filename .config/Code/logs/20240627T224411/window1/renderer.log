@@ -1,0 +1,28 @@
+2024-06-27 22:44:14.109 [info] Started local extension host with pid 2891.
+2024-06-27 22:44:14.508 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-06-27 22:44:16.555 [warning] Overlapping semantic tokens detected at lineNumber 10, column 37
+2024-06-27 22:44:18.068 [info] [perf] Render performance baseline is 256ms
+2024-06-27 22:44:31.043 [error] [Extension Host] [CMakeTools] 2024-06-27T21:44:31.039Z [error] [cmake] CMake Error at CMakeLists.txt:5 (project):
+2024-06-27 22:44:31.044 [error] [Extension Host] [CMakeTools] 2024-06-27T21:44:31.040Z [error] [cmake]   The CMAKE_C_COMPILER:
+2024-06-27 22:44:31.044 [error] [Extension Host] [CMakeTools] 2024-06-27T21:44:31.041Z [error] [cmake] 
+2024-06-27 22:44:31.048 [error] [Extension Host] [CMakeTools] 2024-06-27T21:44:31.041Z [error] [cmake]     /usr/bin/clang-cl
+2024-06-27 22:44:31.051 [error] [Extension Host] [CMakeTools] 2024-06-27T21:44:31.049Z [error] [cmake] 
+2024-06-27 22:44:31.061 [error] [Extension Host] [CMakeTools] 2024-06-27T21:44:31.054Z [error] [cmake]   is not a full path to an existing compiler tool.
+2024-06-27 22:44:31.062 [error] [Extension Host] [CMakeTools] 2024-06-27T21:44:31.055Z [error] [cmake] 
+2024-06-27 22:44:31.062 [error] [Extension Host] [CMakeTools] 2024-06-27T21:44:31.055Z [error] [cmake]   Tell CMake where to find the compiler by setting either the environment
+2024-06-27 22:44:31.062 [error] [Extension Host] [CMakeTools] 2024-06-27T21:44:31.056Z [error] [cmake]   variable "CC" or the CMake cache entry CMAKE_C_COMPILER to the full path to
+2024-06-27 22:44:31.063 [error] [Extension Host] [CMakeTools] 2024-06-27T21:44:31.056Z [error] [cmake]   the compiler, or to the compiler name if it is in the PATH.
+2024-06-27 22:44:31.063 [error] [Extension Host] [CMakeTools] 2024-06-27T21:44:31.057Z [error] [cmake] 
+2024-06-27 22:44:31.064 [error] [Extension Host] [CMakeTools] 2024-06-27T21:44:31.057Z [error] [cmake] 
+2024-06-27 22:44:48.734 [error] [Extension Host] [CMakeTools] 2024-06-27T21:44:48.721Z [error] [cmake] CMake Error at CMakeLists.txt:5 (project):
+2024-06-27 22:44:48.735 [error] [Extension Host] [CMakeTools] 2024-06-27T21:44:48.721Z [error] [cmake]   The CMAKE_C_COMPILER:
+2024-06-27 22:44:48.744 [error] [Extension Host] [CMakeTools] 2024-06-27T21:44:48.722Z [error] [cmake] 
+2024-06-27 22:44:48.745 [error] [Extension Host] [CMakeTools] 2024-06-27T21:44:48.722Z [error] [cmake]     /usr/bin/clang-cl
+2024-06-27 22:44:48.746 [error] [Extension Host] [CMakeTools] 2024-06-27T21:44:48.723Z [error] [cmake] 
+2024-06-27 22:44:48.746 [error] [Extension Host] [CMakeTools] 2024-06-27T21:44:48.723Z [error] [cmake]   is not a full path to an existing compiler tool.
+2024-06-27 22:44:48.747 [error] [Extension Host] [CMakeTools] 2024-06-27T21:44:48.723Z [error] [cmake] 
+2024-06-27 22:44:48.747 [error] [Extension Host] [CMakeTools] 2024-06-27T21:44:48.724Z [error] [cmake]   Tell CMake where to find the compiler by setting either the environment
+2024-06-27 22:44:48.748 [error] [Extension Host] [CMakeTools] 2024-06-27T21:44:48.724Z [error] [cmake]   variable "CC" or the CMake cache entry CMAKE_C_COMPILER to the full path to
+2024-06-27 22:44:48.749 [error] [Extension Host] [CMakeTools] 2024-06-27T21:44:48.729Z [error] [cmake]   the compiler, or to the compiler name if it is in the PATH.
+2024-06-27 22:44:48.753 [error] [Extension Host] [CMakeTools] 2024-06-27T21:44:48.729Z [error] [cmake] 
+2024-06-27 22:44:48.755 [error] [Extension Host] [CMakeTools] 2024-06-27T21:44:48.733Z [error] [cmake] 

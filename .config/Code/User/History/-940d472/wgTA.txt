@@ -1,0 +1,15 @@
+# Minimum Version of CMake Required to Generate Project Build Files
+cmake_minimum_required(VERSION 3.25)
+
+# Create Project and Set Programming Standards
+project(learningC LANGUAGES C)
+set(CMAKE_C_STANDARD 17)
+set(CMAKE_C_STANDARD_REQUIRED ON)
+set(CMAKE_C_FLAGS_DEBUG "-pedantic-errors")
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
+# Add Source Files to Project
+add_executable(${PROJECT_NAME}
+	# Main Source File
+	"src/main.c"
+)

@@ -1,0 +1,28 @@
+[proc] Executing command: /usr/bin/cmake --version
+[proc] Executing command: /usr/bin/cmake -E capabilities
+[variant] Loaded new set of variants
+[kit] Detected kits definition version change from undefined to 2. Silently scanning for kits.
+[proc] Executing command: /usr/bin/gcc -v
+[proc] Executing command: /usr/bin/x86_64-linux-gnu-gcc -v
+[proc] Executing command: /usr/bin/x86_64-pc-linux-gnu-gcc -v
+[proc] Executing command: /usr/bin/x86_64-pc-linux-gnu-gcc-14.1.1 -v
+[proc] Executing command: /usr/bin/x86_64-pc-linux-gnu-gcc -v
+[kit] Found Kit (trusted): GCC 14.1.1 x86_64-pc-linux-gnu
+[kit] Found Kit (trusted): GCC 14.1.1 x86_64-pc-linux-gnu
+[kit] Found Kit (trusted): GCC 14.1.1 x86_64-pc-linux-gnu
+[kit] Found Kit (trusted): GCC 14.1.1 x86_64-pc-linux-gnu
+[proc] The command: ninja --version failed with error: Error: spawn ninja ENOENT
+[proc] The command: ninja-build --version failed with error: Error: spawn ninja-build ENOENT
+[proc] The command: ninja --version failed with error: Error: spawn ninja ENOENT
+[proc] The command: ninja-build --version failed with error: Error: spawn ninja-build ENOENT
+[main] Building folder: HyprSettings 
+[proc] The command: ninja --version failed with error: Error: spawn ninja ENOENT
+[proc] The command: ninja-build --version failed with error: Error: spawn ninja-build ENOENT
+[rollbar] Unhandled exception: Unhandled Promise rejection: build Error: No cache object found {}
+[proc] The command: ninja --version failed with error: Error: spawn ninja ENOENT
+[proc] The command: ninja-build --version failed with error: Error: spawn ninja-build ENOENT
+[rollbar] Unhandled exception: Unhandled Promise rejection: launchTarget Error: No cache object found {}
+[main] Building folder: HyprSettings 
+[proc] The command: ninja --version failed with error: Error: spawn ninja ENOENT
+[proc] The command: ninja-build --version failed with error: Error: spawn ninja-build ENOENT
+[rollbar] Unhandled exception: Unhandled Promise rejection: build Error: No cache object found {}

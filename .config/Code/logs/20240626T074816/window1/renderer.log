@@ -1,0 +1,51 @@
+2024-06-26 07:48:18.212 [info] Started local extension host with pid 1156.
+2024-06-26 07:48:18.301 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-06-26 07:48:21.603 [info] [perf] Render performance baseline is 105ms
+2024-06-26 07:49:52.101 [error] [Extension Host] [CMakeTools] 2024-06-26T06:49:52.099Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘main’:
+2024-06-26 07:49:52.102 [error] [Extension Host] [CMakeTools] 2024-06-26T06:49:52.100Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:9:18: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+2024-06-26 07:49:52.103 [error] [Extension Host] [CMakeTools] 2024-06-26T06:49:52.100Z [error] [build]     9 |         int* p = &x;
+2024-06-26 07:49:52.104 [error] [Extension Host] [CMakeTools] 2024-06-26T06:49:52.101Z [error] [build]       |                  ^
+2024-06-26 07:49:52.105 [error] [Extension Host] [CMakeTools] 2024-06-26T06:49:52.102Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:17:1: error: expected ‘;’ before ‘}’ token
+2024-06-26 07:49:52.113 [error] [Extension Host] [CMakeTools] 2024-06-26T06:49:52.103Z [error] [build]    17 | }
+2024-06-26 07:49:52.113 [error] [Extension Host] [CMakeTools] 2024-06-26T06:49:52.103Z [error] [build]       | ^
+2024-06-26 07:49:52.115 [error] [Extension Host] [CMakeTools] 2024-06-26T06:49:52.111Z [error] [build] make[2]: *** [CMakeFiles/learningC.dir/build.make:76: CMakeFiles/learningC.dir/src/main.c.o] Error 1
+2024-06-26 07:49:52.115 [error] [Extension Host] [CMakeTools] 2024-06-26T06:49:52.112Z [error] [build] make[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/learningC.dir/all] Error 2
+2024-06-26 07:49:52.122 [error] [Extension Host] [CMakeTools] 2024-06-26T06:49:52.112Z [error] [build] make: *** [Makefile:91: all] Error 2
+2024-06-26 07:50:38.277 [error] [Extension Host] [CMakeTools] 2024-06-26T06:50:38.275Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘main’:
+2024-06-26 07:50:38.279 [error] [Extension Host] [CMakeTools] 2024-06-26T06:50:38.276Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:17:1: error: expected ‘;’ before ‘}’ token
+2024-06-26 07:50:38.279 [error] [Extension Host] [CMakeTools] 2024-06-26T06:50:38.277Z [error] [build]    17 | }
+2024-06-26 07:50:38.280 [error] [Extension Host] [CMakeTools] 2024-06-26T06:50:38.277Z [error] [build]       | ^
+2024-06-26 07:50:38.282 [error] [Extension Host] [CMakeTools] 2024-06-26T06:50:38.279Z [error] [build] make[2]: *** [CMakeFiles/learningC.dir/build.make:76: CMakeFiles/learningC.dir/src/main.c.o] Error 1
+2024-06-26 07:50:38.282 [error] [Extension Host] [CMakeTools] 2024-06-26T06:50:38.280Z [error] [build] make[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/learningC.dir/all] Error 2
+2024-06-26 07:50:38.283 [error] [Extension Host] [CMakeTools] 2024-06-26T06:50:38.281Z [error] [build] make: *** [Makefile:91: all] Error 2
+2024-06-26 07:51:07.102 [error] [Extension Host] [CMakeTools] 2024-06-26T06:51:07.100Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘main’:
+2024-06-26 07:51:07.103 [error] [Extension Host] [CMakeTools] 2024-06-26T06:51:07.101Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:9:18: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+2024-06-26 07:51:07.103 [error] [Extension Host] [CMakeTools] 2024-06-26T06:51:07.101Z [error] [build]     9 |         int* p = &x;
+2024-06-26 07:51:07.104 [error] [Extension Host] [CMakeTools] 2024-06-26T06:51:07.101Z [error] [build]       |                  ^
+2024-06-26 07:51:23.513 [error] [Extension Host] [CMakeTools] 2024-06-26T06:51:23.511Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘main’:
+2024-06-26 07:51:23.515 [error] [Extension Host] [CMakeTools] 2024-06-26T06:51:23.511Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:9:18: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+2024-06-26 07:51:23.516 [error] [Extension Host] [CMakeTools] 2024-06-26T06:51:23.512Z [error] [build]     9 |         int* p = &x;
+2024-06-26 07:51:23.516 [error] [Extension Host] [CMakeTools] 2024-06-26T06:51:23.512Z [error] [build]       |                  ^
+2024-06-26 07:51:32.380 [error] [Extension Host] [CMakeTools] 2024-06-26T06:51:32.379Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘main’:
+2024-06-26 07:51:32.381 [error] [Extension Host] [CMakeTools] 2024-06-26T06:51:32.379Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:9:18: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+2024-06-26 07:51:32.382 [error] [Extension Host] [CMakeTools] 2024-06-26T06:51:32.380Z [error] [build]     9 |         int* p = &x;
+2024-06-26 07:51:32.384 [error] [Extension Host] [CMakeTools] 2024-06-26T06:51:32.380Z [error] [build]       |                  ^
+2024-06-26 07:51:32.385 [error] [Extension Host] [CMakeTools] 2024-06-26T06:51:32.382Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:9:14: warning: unused variable ‘p’ [-Wunused-variable]
+2024-06-26 07:51:32.385 [error] [Extension Host] [CMakeTools] 2024-06-26T06:51:32.382Z [error] [build]     9 |         int* p = &x;
+2024-06-26 07:51:32.386 [error] [Extension Host] [CMakeTools] 2024-06-26T06:51:32.382Z [error] [build]       |              ^
+2024-06-26 07:53:36.630 [error] [Extension Host] [CMakeTools] 2024-06-26T06:53:36.628Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘main’:
+2024-06-26 07:53:36.630 [error] [Extension Host] [CMakeTools] 2024-06-26T06:53:36.628Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:11:26: warning: comparison of integer expressions of different signedness: ‘int’ and ‘long unsigned int’ [-Wsign-compare]
+2024-06-26 07:53:36.631 [error] [Extension Host] [CMakeTools] 2024-06-26T06:53:36.629Z [error] [build]    11 |         for(int i = 0; i < sizeof(testArr) / sizeof(testArr[0]); i++) {
+2024-06-26 07:53:36.631 [error] [Extension Host] [CMakeTools] 2024-06-26T06:53:36.629Z [error] [build]       |                          ^
+2024-06-26 07:53:56.973 [error] [Extension Host] [CMakeTools] 2024-06-26T06:53:56.972Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘main’:
+2024-06-26 07:53:56.974 [error] [Extension Host] [CMakeTools] 2024-06-26T06:53:56.973Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:11:26: warning: comparison of integer expressions of different signedness: ‘int’ and ‘long unsigned int’ [-Wsign-compare]
+2024-06-26 07:53:56.975 [error] [Extension Host] [CMakeTools] 2024-06-26T06:53:56.973Z [error] [build]    11 |         for(int i = 0; i < sizeof(testArr) / sizeof(testArr[0]); i++) {
+2024-06-26 07:53:56.977 [error] [Extension Host] [CMakeTools] 2024-06-26T06:53:56.973Z [error] [build]       |                          ^
+2024-06-26 07:54:30.379 [error] [Extension Host] [CMakeTools] 2024-06-26T06:54:30.378Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘main’:
+2024-06-26 07:54:30.380 [error] [Extension Host] [CMakeTools] 2024-06-26T06:54:30.379Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:11:26: warning: comparison of integer expressions of different signedness: ‘int’ and ‘long unsigned int’ [-Wsign-compare]
+2024-06-26 07:54:30.382 [error] [Extension Host] [CMakeTools] 2024-06-26T06:54:30.379Z [error] [build]    11 |         for(int i = 0; i < (sizeof(testArr) / sizeof(testArr[0])); i++) {
+2024-06-26 07:54:30.386 [error] [Extension Host] [CMakeTools] 2024-06-26T06:54:30.380Z [error] [build]       |                          ^
+2024-06-26 07:55:01.975 [error] [Extension Host] [CMakeTools] 2024-06-26T06:55:01.973Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘main’:
+2024-06-26 07:55:01.977 [error] [Extension Host] [CMakeTools] 2024-06-26T06:55:01.975Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:12:26: warning: comparison of integer expressions of different signedness: ‘int’ and ‘unsigned int’ [-Wsign-compare]
+2024-06-26 07:55:01.977 [error] [Extension Host] [CMakeTools] 2024-06-26T06:55:01.975Z [error] [build]    12 |         for(int i = 0; i < testArrSize; i++) {
+2024-06-26 07:55:01.978 [error] [Extension Host] [CMakeTools] 2024-06-26T06:55:01.976Z [error] [build]       |                          ^

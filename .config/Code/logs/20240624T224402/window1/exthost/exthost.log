@@ -1,0 +1,129 @@
+2024-06-24 22:44:04.647 [info] Extension host with pid 36007 started
+2024-06-24 22:44:04.705 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-06-24 22:44:04.722 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-06-24 22:44:04.774 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-06-24 22:44:04.899 [info] Eager extensions activated
+2024-06-24 22:44:04.964 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-06-24 22:44:04.969 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-06-24 22:44:04.987 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-06-24 22:44:14.546 [info] Extension host terminating: renderer closed the MessagePort
+2024-06-24 22:44:14.565 [info] Extension host with pid 36007 exiting with code 0
+2024-06-24 22:44:16.049 [info] Extension host with pid 36094 started
+2024-06-24 22:44:16.049 [info] Skipping acquiring lock for /home/voxi0/.config/Code/User/workspaceStorage/dfb4adce4900a73586bbd425ed84522c.
+2024-06-24 22:44:16.083 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-06-24 22:44:16.112 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-06-24 22:44:16.160 [info] Eager extensions activated
+2024-06-24 22:44:16.208 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-06-24 22:44:16.211 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-06-24 22:44:16.220 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-06-24 22:44:16.628 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-06-24 22:44:19.060 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-06-24 22:44:35.726 [info] ExtensionService#_doActivateExtension ms-vscode.cmake-tools, startup: false, activationEvent: 'workspaceContains:CMakeLists.txt'
+2024-06-24 22:44:37.853 [error] Error: Extension 'ms-vscode.cmake-tools' CANNOT use API proposal: extensionRuntime.
+Its package.json#enabledApiProposals-property declares: [] but NOT extensionRuntime.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-vscode.cmake-tools
+	at P (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:57957)
+	at get extensionRuntime (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:159:12747)
+	at JSON.stringify (<anonymous>)
+	at RollbarController.exception (/home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42/dist/main.js:68065:60)
+	at /home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42/dist/main.js:68109:38
+2024-06-24 22:44:45.201 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onWalkthrough:cppWelcome'
+2024-06-24 22:45:27.331 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-06-24 22:45:29.929 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-06-24 22:45:29.964 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-06-24 22:45:43.601 [error] Error: No cache object found
+	at CMakeFileApiDriver.updateCodeModel (/home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42/dist/main.js:55338:23)
+	at async CMakeFileApiDriver.doInit (/home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42/dist/main.js:55144:38)
+	at async CMakeFileApiDriver._baseInit (/home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42/dist/main.js:54702:9)
+	at async CMakeFileApiDriver.createDerived (/home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42/dist/main.js:54709:9)
+	at async CMakeProject.startNewCMakeDriver (/home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42/dist/main.js:44381:27)
+	at async /home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42/dist/main.js:44640:21
+	at async /home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42/dist/main.js:69390:36 cmake.build {"value":"ms-vscode.cmake-tools","_lower":"ms-vscode.cmake-tools"}
+2024-06-24 22:46:22.773 [error] Error: No cache object found
+	at CMakeFileApiDriver.updateCodeModel (/home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42/dist/main.js:55338:23)
+	at async CMakeFileApiDriver.doInit (/home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42/dist/main.js:55144:38)
+	at async CMakeFileApiDriver._baseInit (/home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42/dist/main.js:54702:9)
+	at async CMakeFileApiDriver.createDerived (/home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42/dist/main.js:54709:9)
+	at async CMakeProject.startNewCMakeDriver (/home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42/dist/main.js:44381:27)
+	at async /home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42/dist/main.js:44640:21
+	at async /home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42/dist/main.js:69390:36 cmake.launchTarget {"value":"ms-vscode.cmake-tools","_lower":"ms-vscode.cmake-tools"}
+2024-06-24 22:47:32.113 [error] Error: No cache object found
+	at CMakeFileApiDriver.updateCodeModel (/home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42/dist/main.js:55338:23)
+	at async CMakeFileApiDriver.doInit (/home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42/dist/main.js:55144:38)
+	at async CMakeFileApiDriver._baseInit (/home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42/dist/main.js:54702:9)
+	at async CMakeFileApiDriver.createDerived (/home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42/dist/main.js:54709:9)
+	at async CMakeProject.startNewCMakeDriver (/home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42/dist/main.js:44381:27)
+	at async /home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42/dist/main.js:44640:21
+	at async /home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42/dist/main.js:69390:36 cmake.build {"value":"ms-vscode.cmake-tools","_lower":"ms-vscode.cmake-tools"}
+2024-06-24 22:47:58.179 [info] Extension host terminating: renderer closed the MessagePort
+2024-06-24 22:47:58.238 [error] Canceled: Canceled
+	at new A (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:143:50615)
+	at E.U (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:6007)
+	at z.<computed>.M.charCodeAt.R.CharCode.DollarSign.z.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:3091)
+	at h.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:199937)
+	at h.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:199375)
+	at I.registerCommand.description (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:198699)
+	at h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:200476)
+	at h.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:199468)
+	at h.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:199375)
+	at Object.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:22742)
+	at n.O [as value] (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:945191)
+	at l.y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.z (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:82:734)
+	at l.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:82:950)
+	at Object.p [as dispose] (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:964275)
+	at /opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:970313
+	at Array.forEach (<anonymous>)
+	at f.dispose (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:970299)
+	at a.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:4032)
+	at a.dispose (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:4129)
+	at a.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:947448)
+	at a.dispose (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:4129)
+	at f (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at u.eb (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:159:9991)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:159:7867
+	at Array.map (<anonymous>)
+	at u.$ (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:159:7854)
+	at u.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:159:8127)
+	at f.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:1513)
+	at t (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:10459)
+	at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:6675)
+	at MessagePortMain.emit (node:events:514:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-06-24 22:47:58.238 [error] Canceled: Canceled
+	at new A (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:143:50615)
+	at E.U (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:6007)
+	at z.<computed>.M.charCodeAt.R.CharCode.DollarSign.z.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:3091)
+	at h.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:199937)
+	at h.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:199375)
+	at I.registerCommand.description (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:198699)
+	at h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:200476)
+	at h.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:199468)
+	at h.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:199375)
+	at Object.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:22742)
+	at set hasGitHubRepositories (/opt/visual-studio-code/resources/app/extensions/github/dist/extension.js:2:322969)
+	at /opt/visual-studio-code/resources/app/extensions/github/dist/extension.js:2:323928
+	at n.value (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:1050764)
+	at l.y (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.z (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:82:734)
+	at l.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:82:950)
+	at Object.p [as dispose] (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:964275)
+	at /opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:970313
+	at Array.forEach (<anonymous>)
+	at f.dispose (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:970299)
+	at a.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:4032)
+	at a.dispose (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:4129)
+	at a.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:947448)
+	at a.dispose (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:4129)
+	at f (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at u.eb (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:159:9991)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:159:7867
+	at Array.map (<anonymous>)
+	at u.$ (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:159:7854)
+	at u.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:159:8127)
+	at f.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:1513)
+	at t (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:10459)
+	at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:6675)
+	at MessagePortMain.emit (node:events:514:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-06-24 22:47:58.336 [info] Extension host with pid 36094 exiting with code 0

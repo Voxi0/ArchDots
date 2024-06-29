@@ -1,0 +1,23 @@
+2024-06-26 22:39:35.327 [info] Uninstalling extension from the profile: jeff-hykin.better-cpp-syntax@1.17.2 vscode-userdata:/home/voxi0/.vscode/extensions/extensions.json
+2024-06-26 22:39:35.391 [info] Marked extension as uninstalled jeff-hykin.better-cpp-syntax-1.17.2
+2024-06-26 22:39:35.492 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/voxi0/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/voxi0/.vscode/extensions/extensions.json.vsctmp'
+    at c.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19235)
+    at m (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19345)
+    at t.hb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36685)
+    at t.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29033)
+    at async b.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:14899)
+    at async H.vb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:117665)
+2024-06-26 22:39:36.076 [info] Successfully uninstalled extension from the profile jeff-hykin.better-cpp-syntax@1.17.2 vscode-userdata:/home/voxi0/.vscode/extensions/extensions.json
+2024-06-26 22:39:45.280 [info] Getting Manifest... evgeniypeshkov.syntax-highlighter
+2024-06-26 22:39:45.303 [info] Installing extension: evgeniypeshkov.syntax-highlighter vscode-userdata:/home/voxi0/.vscode/extensions/extensions.json
+2024-06-26 22:39:46.411 [info] Extension signature verification result for evgeniypeshkov.syntax-highlighter: UnknownError. Executed: true. Duration: 37ms.
+2024-06-26 22:39:46.708 [info] Extracted extension to file:///home/voxi0/.vscode/extensions/evgeniypeshkov.syntax-highlighter-0.5.0: evgeniypeshkov.syntax-highlighter
+2024-06-26 22:39:46.716 [info] Renamed to /home/voxi0/.vscode/extensions/evgeniypeshkov.syntax-highlighter-0.5.0
+2024-06-26 22:39:46.823 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/voxi0/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/voxi0/.vscode/extensions/extensions.json.vsctmp'
+    at c.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19235)
+    at m (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19345)
+    at t.hb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36685)
+    at t.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29033)
+    at async b.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:14899)
+    at async H.vb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:117665)
+2024-06-26 22:39:46.850 [info] Extension installed successfully: evgeniypeshkov.syntax-highlighter vscode-userdata:/home/voxi0/.vscode/extensions/extensions.json

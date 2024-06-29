@@ -1,0 +1,22 @@
+2024-06-29 17:20:44.688 [info] Extension host with pid 27602 started
+2024-06-29 17:20:44.688 [info] Skipping acquiring lock for /home/voxi0/.config/Code/User/workspaceStorage/edcd40d413644e27b47fbd41916130ee.
+2024-06-29 17:20:45.129 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-06-29 17:20:45.146 [info] ExtensionService#_doActivateExtension evgeniypeshkov.syntax-highlighter, startup: false, activationEvent: 'onLanguage:shellscript'
+2024-06-29 17:20:45.616 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-06-29 17:20:45.771 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-06-29 17:20:45.818 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-06-29 17:20:45.992 [info] Eager extensions activated
+2024-06-29 17:20:46.123 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-06-29 17:20:46.126 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-06-29 17:20:46.137 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-06-29 17:20:46.646 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-06-29 17:53:03.525 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-06-29 19:32:12.213 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-06-29 19:32:12.257 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-06-29 19:42:00.859 [warning] [Decorations] CAPPING events from decorations provider vscode.git 948
+2024-06-29 19:42:05.186 [info] ExtensionService#_doActivateExtension vscode.media-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'
+2024-06-29 19:42:13.490 [warning] [Decorations] CAPPING events from decorations provider vscode.git 948
+2024-06-29 19:42:38.885 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1127
+2024-06-29 19:43:40.992 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1127
+2024-06-29 19:43:51.125 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1127
+2024-06-29 19:44:09.673 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1153

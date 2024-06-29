@@ -1,0 +1,4 @@
+packages="
+    glfw
+    sdl2
+"

@@ -1,0 +1,190 @@
+2024-06-26 22:27:17.874 [info] Started local extension host with pid 2825.
+2024-06-26 22:27:18.010 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-06-26 22:27:29.909 [info] [perf] Render performance baseline is 68ms
+2024-06-26 22:29:59.602 [error] [Extension Host] [CMakeTools] 2024-06-26T21:29:59.600Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘times2’:
+2024-06-26 22:29:59.603 [error] [Extension Host] [CMakeTools] 2024-06-26T21:29:59.601Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:7:28: warning: ‘sizeof’ on array function parameter ‘arr’ will return size of ‘const int **’ [-Wsizeof-array-argument]
+2024-06-26 22:29:59.603 [error] [Extension Host] [CMakeTools] 2024-06-26T21:29:59.601Z [error] [build]     7 |         int arrLen = sizeof(arr) / sizeof(arr[0]);
+2024-06-26 22:29:59.604 [error] [Extension Host] [CMakeTools] 2024-06-26T21:29:59.601Z [error] [build]       |                            ^
+2024-06-26 22:29:59.611 [error] [Extension Host] [CMakeTools] 2024-06-26T21:29:59.602Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:6:24: note: declared here
+2024-06-26 22:29:59.612 [error] [Extension Host] [CMakeTools] 2024-06-26T21:29:59.602Z [error] [build]     6 | void times2(const int *arr[]) {
+2024-06-26 22:29:59.613 [error] [Extension Host] [CMakeTools] 2024-06-26T21:29:59.602Z [error] [build]       |             ~~~~~~~~~~~^~~~~
+2024-06-26 22:29:59.615 [error] [Extension Host] [CMakeTools] 2024-06-26T21:29:59.604Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:9:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘const int *’ [-Wformat=]
+2024-06-26 22:29:59.616 [error] [Extension Host] [CMakeTools] 2024-06-26T21:29:59.604Z [error] [build]     9 |                 printf("%d, ", arr[i]);
+2024-06-26 22:29:59.616 [error] [Extension Host] [CMakeTools] 2024-06-26T21:29:59.605Z [error] [build]       |                         ~^     ~~~~~~
+2024-06-26 22:29:59.618 [error] [Extension Host] [CMakeTools] 2024-06-26T21:29:59.605Z [error] [build]       |                          |        |
+2024-06-26 22:29:59.618 [error] [Extension Host] [CMakeTools] 2024-06-26T21:29:59.605Z [error] [build]       |                          int      const int *
+2024-06-26 22:29:59.619 [error] [Extension Host] [CMakeTools] 2024-06-26T21:29:59.605Z [error] [build]       |                         %ls
+2024-06-26 22:29:59.627 [error] [Extension Host] [CMakeTools] 2024-06-26T21:29:59.608Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘main’:
+2024-06-26 22:29:59.628 [error] [Extension Host] [CMakeTools] 2024-06-26T21:29:59.609Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:21:16: error: passing argument 1 of ‘times2’ from incompatible pointer type [-Wincompatible-pointer-types]
+2024-06-26 22:29:59.630 [error] [Extension Host] [CMakeTools] 2024-06-26T21:29:59.611Z [error] [build]    21 |         times2(testArrPtr);
+2024-06-26 22:29:59.631 [error] [Extension Host] [CMakeTools] 2024-06-26T21:29:59.612Z [error] [build]       |                ^~~~~~~~~~
+2024-06-26 22:29:59.631 [error] [Extension Host] [CMakeTools] 2024-06-26T21:29:59.612Z [error] [build]       |                |
+2024-06-26 22:29:59.632 [error] [Extension Host] [CMakeTools] 2024-06-26T21:29:59.613Z [error] [build]       |                const int *
+2024-06-26 22:29:59.632 [error] [Extension Host] [CMakeTools] 2024-06-26T21:29:59.614Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:6:24: note: expected ‘const int **’ but argument is of type ‘const int *’
+2024-06-26 22:29:59.632 [error] [Extension Host] [CMakeTools] 2024-06-26T21:29:59.614Z [error] [build]     6 | void times2(const int *arr[]) {
+2024-06-26 22:29:59.633 [error] [Extension Host] [CMakeTools] 2024-06-26T21:29:59.615Z [error] [build]       |             ~~~~~~~~~~~^~~~~
+2024-06-26 22:29:59.634 [error] [Extension Host] [CMakeTools] 2024-06-26T21:29:59.616Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:17:28: warning: unused variable ‘testArrSize’ [-Wunused-variable]
+2024-06-26 22:29:59.634 [error] [Extension Host] [CMakeTools] 2024-06-26T21:29:59.617Z [error] [build]    17 |         const unsigned int testArrSize = sizeof(testArr) / sizeof(testArr[0]);
+2024-06-26 22:29:59.635 [error] [Extension Host] [CMakeTools] 2024-06-26T21:29:59.618Z [error] [build]       |                            ^~~~~~~~~~~
+2024-06-26 22:29:59.649 [error] [Extension Host] [CMakeTools] 2024-06-26T21:29:59.623Z [error] [build] make[2]: *** [CMakeFiles/learningC.dir/build.make:76: CMakeFiles/learningC.dir/src/main.c.o] Error 1
+2024-06-26 22:29:59.651 [error] [Extension Host] [CMakeTools] 2024-06-26T21:29:59.625Z [error] [build] make[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/learningC.dir/all] Error 2
+2024-06-26 22:29:59.651 [error] [Extension Host] [CMakeTools] 2024-06-26T21:29:59.626Z [error] [build] make: *** [Makefile:91: all] Error 2
+2024-06-26 22:30:12.606 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:12.605Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘times2’:
+2024-06-26 22:30:12.607 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:12.606Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:7:28: warning: ‘sizeof’ on array function parameter ‘arr’ will return size of ‘const int **’ [-Wsizeof-array-argument]
+2024-06-26 22:30:12.608 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:12.606Z [error] [build]     7 |         int arrLen = sizeof(arr) / sizeof(arr[0]);
+2024-06-26 22:30:12.609 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:12.606Z [error] [build]       |                            ^
+2024-06-26 22:30:12.610 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:12.607Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:6:24: note: declared here
+2024-06-26 22:30:12.611 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:12.607Z [error] [build]     6 | void times2(const int *arr[]) {
+2024-06-26 22:30:12.612 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:12.607Z [error] [build]       |             ~~~~~~~~~~~^~~~~
+2024-06-26 22:30:12.618 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:12.610Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:9:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘const int *’ [-Wformat=]
+2024-06-26 22:30:12.618 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:12.610Z [error] [build]     9 |                 printf("%d, ", arr[i]);
+2024-06-26 22:30:12.619 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:12.611Z [error] [build]       |                         ~^     ~~~~~~
+2024-06-26 22:30:12.619 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:12.611Z [error] [build]       |                          |        |
+2024-06-26 22:30:12.620 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:12.612Z [error] [build]       |                          int      const int *
+2024-06-26 22:30:12.620 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:12.613Z [error] [build]       |                         %ls
+2024-06-26 22:30:12.621 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:12.613Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘main’:
+2024-06-26 22:30:12.622 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:12.614Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:20:16: error: passing argument 1 of ‘times2’ from incompatible pointer type [-Wincompatible-pointer-types]
+2024-06-26 22:30:12.623 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:12.615Z [error] [build]    20 |         times2(testArrPtr);
+2024-06-26 22:30:12.623 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:12.615Z [error] [build]       |                ^~~~~~~~~~
+2024-06-26 22:30:12.624 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:12.616Z [error] [build]       |                |
+2024-06-26 22:30:12.624 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:12.616Z [error] [build]       |                const int *
+2024-06-26 22:30:12.625 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:12.617Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:6:24: note: expected ‘const int **’ but argument is of type ‘const int *’
+2024-06-26 22:30:12.625 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:12.617Z [error] [build]     6 | void times2(const int *arr[]) {
+2024-06-26 22:30:12.627 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:12.617Z [error] [build]       |             ~~~~~~~~~~~^~~~~
+2024-06-26 22:30:12.629 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:12.618Z [error] [build] make[2]: *** [CMakeFiles/learningC.dir/build.make:76: CMakeFiles/learningC.dir/src/main.c.o] Error 1
+2024-06-26 22:30:12.631 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:12.618Z [error] [build] make[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/learningC.dir/all] Error 2
+2024-06-26 22:30:12.638 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:12.620Z [error] [build] make: *** [Makefile:91: all] Error 2
+2024-06-26 22:30:25.428 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:25.426Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘times2’:
+2024-06-26 22:30:25.428 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:25.427Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:7:35: warning: division ‘sizeof (const int *) / sizeof (int)’ does not compute the number of array elements [-Wsizeof-pointer-div]
+2024-06-26 22:30:25.429 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:25.427Z [error] [build]     7 |         int arrLen = sizeof(*arr) / sizeof(*arr[0]);
+2024-06-26 22:30:25.431 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:25.428Z [error] [build]       |                                   ^
+2024-06-26 22:30:25.434 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:25.430Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘main’:
+2024-06-26 22:30:25.435 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:25.430Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:20:16: error: passing argument 1 of ‘times2’ from incompatible pointer type [-Wincompatible-pointer-types]
+2024-06-26 22:30:25.436 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:25.431Z [error] [build]    20 |         times2(testArrPtr);
+2024-06-26 22:30:25.438 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:25.432Z [error] [build]       |                ^~~~~~~~~~
+2024-06-26 22:30:25.439 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:25.432Z [error] [build]       |                |
+2024-06-26 22:30:25.439 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:25.434Z [error] [build]       |                const int *
+2024-06-26 22:30:25.440 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:25.434Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:6:24: note: expected ‘const int **’ but argument is of type ‘const int *’
+2024-06-26 22:30:25.440 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:25.434Z [error] [build]     6 | void times2(const int *arr[]) {
+2024-06-26 22:30:25.441 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:25.435Z [error] [build]       |             ~~~~~~~~~~~^~~~~
+2024-06-26 22:30:25.442 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:25.435Z [error] [build] make[2]: *** [CMakeFiles/learningC.dir/build.make:76: CMakeFiles/learningC.dir/src/main.c.o] Error 1
+2024-06-26 22:30:25.443 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:25.439Z [error] [build] make[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/learningC.dir/all] Error 2
+2024-06-26 22:30:25.444 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:25.440Z [error] [build] make: *** [Makefile:91: all] Error 2
+2024-06-26 22:30:48.925 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:48.923Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘times2’:
+2024-06-26 22:30:48.925 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:48.923Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:7:28: warning: ‘sizeof’ on array function parameter ‘arr’ will return size of ‘const int **’ [-Wsizeof-array-argument]
+2024-06-26 22:30:48.927 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:48.924Z [error] [build]     7 |         int arrLen = sizeof(arr) / sizeof(arr[0]);
+2024-06-26 22:30:48.928 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:48.924Z [error] [build]       |                            ^
+2024-06-26 22:30:48.929 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:48.924Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:6:24: note: declared here
+2024-06-26 22:30:48.931 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:48.925Z [error] [build]     6 | void times2(const int *arr[]) {
+2024-06-26 22:30:48.932 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:48.926Z [error] [build]       |             ~~~~~~~~~~~^~~~~
+2024-06-26 22:30:48.935 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:48.928Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:9:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘const int *’ [-Wformat=]
+2024-06-26 22:30:48.936 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:48.928Z [error] [build]     9 |                 printf("%d, ", arr[i]);
+2024-06-26 22:30:48.936 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:48.929Z [error] [build]       |                         ~^     ~~~~~~
+2024-06-26 22:30:48.938 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:48.929Z [error] [build]       |                          |        |
+2024-06-26 22:30:48.938 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:48.929Z [error] [build]       |                          int      const int *
+2024-06-26 22:30:48.938 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:48.930Z [error] [build]       |                         %ls
+2024-06-26 22:30:48.939 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:48.930Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘main’:
+2024-06-26 22:30:48.939 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:48.930Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:20:16: error: passing argument 1 of ‘times2’ from incompatible pointer type [-Wincompatible-pointer-types]
+2024-06-26 22:30:48.939 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:48.931Z [error] [build]    20 |         times2(testArrPtr);
+2024-06-26 22:30:48.940 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:48.931Z [error] [build]       |                ^~~~~~~~~~
+2024-06-26 22:30:48.940 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:48.931Z [error] [build]       |                |
+2024-06-26 22:30:48.941 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:48.932Z [error] [build]       |                const int *
+2024-06-26 22:30:48.943 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:48.932Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:6:24: note: expected ‘const int **’ but argument is of type ‘const int *’
+2024-06-26 22:30:48.944 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:48.933Z [error] [build]     6 | void times2(const int *arr[]) {
+2024-06-26 22:30:48.944 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:48.933Z [error] [build]       |             ~~~~~~~~~~~^~~~~
+2024-06-26 22:30:48.945 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:48.933Z [error] [build] make[2]: *** [CMakeFiles/learningC.dir/build.make:76: CMakeFiles/learningC.dir/src/main.c.o] Error 1
+2024-06-26 22:30:48.945 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:48.933Z [error] [build] make[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/learningC.dir/all] Error 2
+2024-06-26 22:30:48.948 [error] [Extension Host] [CMakeTools] 2024-06-26T21:30:48.937Z [error] [build] make: *** [Makefile:91: all] Error 2
+2024-06-26 22:31:07.455 [error] [Extension Host] [CMakeTools] 2024-06-26T21:31:07.453Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘times2’:
+2024-06-26 22:31:07.459 [error] [Extension Host] [CMakeTools] 2024-06-26T21:31:07.454Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:7:34: warning: division ‘sizeof (const int *) / sizeof (int)’ does not compute the number of array elements [-Wsizeof-pointer-div]
+2024-06-26 22:31:07.464 [error] [Extension Host] [CMakeTools] 2024-06-26T21:31:07.455Z [error] [build]     7 |         int arrLen = sizeof(arr) / sizeof(arr[0]);
+2024-06-26 22:31:07.472 [error] [Extension Host] [CMakeTools] 2024-06-26T21:31:07.457Z [error] [build]       |                                  ^
+2024-06-26 22:31:07.477 [error] [Extension Host] [CMakeTools] 2024-06-26T21:31:07.458Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:6:24: note: first ‘sizeof’ operand was declared here
+2024-06-26 22:31:07.478 [error] [Extension Host] [CMakeTools] 2024-06-26T21:31:07.458Z [error] [build]     6 | void times2(const int *arr) {
+2024-06-26 22:31:07.479 [error] [Extension Host] [CMakeTools] 2024-06-26T21:31:07.458Z [error] [build]       |             ~~~~~~~~~~~^~~
+2024-06-26 22:35:43.378 [error] [Extension Host] [CMakeTools] 2024-06-26T21:35:43.359Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘main’:
+2024-06-26 22:35:43.383 [error] [Extension Host] [CMakeTools] 2024-06-26T21:35:43.362Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:18:27: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+2024-06-26 22:35:43.384 [error] [Extension Host] [CMakeTools] 2024-06-26T21:35:43.362Z [error] [build]    18 |         int *testArrPtr = &testArr[0];
+2024-06-26 22:35:43.384 [error] [Extension Host] [CMakeTools] 2024-06-26T21:35:43.363Z [error] [build]       |                           ^
+2024-06-26 22:35:56.998 [error] [Extension Host] [CMakeTools] 2024-06-26T21:35:56.997Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘main’:
+2024-06-26 22:35:56.999 [error] [Extension Host] [CMakeTools] 2024-06-26T21:35:56.997Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:18:27: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+2024-06-26 22:35:57.000 [error] [Extension Host] [CMakeTools] 2024-06-26T21:35:56.998Z [error] [build]    18 |         int *testArrPtr = &testArr[0];
+2024-06-26 22:35:57.000 [error] [Extension Host] [CMakeTools] 2024-06-26T21:35:56.998Z [error] [build]       |                           ^
+2024-06-26 22:37:11.496 [error] [Extension Host] [CMakeTools] 2024-06-26T21:37:11.495Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘main’:
+2024-06-26 22:37:11.497 [error] [Extension Host] [CMakeTools] 2024-06-26T21:37:11.496Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:20:16: error: passing argument 1 of ‘times2’ from incompatible pointer type [-Wincompatible-pointer-types]
+2024-06-26 22:37:11.498 [error] [Extension Host] [CMakeTools] 2024-06-26T21:37:11.496Z [error] [build]    20 |         times2(&testArr, testArrSize);
+2024-06-26 22:37:11.499 [error] [Extension Host] [CMakeTools] 2024-06-26T21:37:11.497Z [error] [build]       |                ^~~~~~~~
+2024-06-26 22:37:11.500 [error] [Extension Host] [CMakeTools] 2024-06-26T21:37:11.497Z [error] [build]       |                |
+2024-06-26 22:37:11.503 [error] [Extension Host] [CMakeTools] 2024-06-26T21:37:11.498Z [error] [build]       |                int (*)[4]
+2024-06-26 22:37:11.504 [error] [Extension Host] [CMakeTools] 2024-06-26T21:37:11.498Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:6:18: note: expected ‘int *’ but argument is of type ‘int (*)[4]’
+2024-06-26 22:37:11.507 [error] [Extension Host] [CMakeTools] 2024-06-26T21:37:11.499Z [error] [build]     6 | void times2(int *arr, const unsigned int arrLen) {
+2024-06-26 22:37:11.508 [error] [Extension Host] [CMakeTools] 2024-06-26T21:37:11.500Z [error] [build]       |             ~~~~~^~~
+2024-06-26 22:37:11.511 [error] [Extension Host] [CMakeTools] 2024-06-26T21:37:11.505Z [error] [build] make[2]: *** [CMakeFiles/learningC.dir/build.make:76: CMakeFiles/learningC.dir/src/main.c.o] Error 1
+2024-06-26 22:37:11.511 [error] [Extension Host] [CMakeTools] 2024-06-26T21:37:11.505Z [error] [build] make[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/learningC.dir/all] Error 2
+2024-06-26 22:37:11.512 [error] [Extension Host] [CMakeTools] 2024-06-26T21:37:11.505Z [error] [build] make: *** [Makefile:91: all] Error 2
+2024-06-26 22:41:24.765 [warning] Semantic token with invalid length detected at lineNumber 12, column 22
+2024-06-26 22:42:14.284 [warning] Overlapping semantic tokens detected at lineNumber 11, column 12
+2024-06-26 22:47:30.762 [error] [Extension Host] [CMakeTools] 2024-06-26T21:47:30.749Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘custom_strlen’:
+2024-06-26 22:47:30.765 [error] [Extension Host] [CMakeTools] 2024-06-26T21:47:30.751Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:10:29: warning: comparison between pointer and integer
+2024-06-26 22:47:30.770 [error] [Extension Host] [CMakeTools] 2024-06-26T21:47:30.751Z [error] [build]    10 |         while(string[count] != "\0")
+2024-06-26 22:47:30.770 [error] [Extension Host] [CMakeTools] 2024-06-26T21:47:30.752Z [error] [build]       |                             ^~
+2024-06-26 22:47:30.771 [error] [Extension Host] [CMakeTools] 2024-06-26T21:47:30.753Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:10:29: warning: comparison with string literal results in unspecified behavior [-Waddress]
+2024-06-26 22:55:43.980 [error] [Extension Host] [CMakeTools] 2024-06-26T21:55:43.976Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘main’:
+2024-06-26 22:55:43.985 [error] [Extension Host] [CMakeTools] 2024-06-26T21:55:43.984Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:25:18: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+2024-06-26 22:55:43.997 [error] [Extension Host] [CMakeTools] 2024-06-26T21:55:43.985Z [error] [build]    25 |         printf("%d\n", car.price);
+2024-06-26 22:55:44.005 [error] [Extension Host] [CMakeTools] 2024-06-26T21:55:43.986Z [error] [build]       |                 ~^     ~~~~~~~~~
+2024-06-26 22:55:44.008 [error] [Extension Host] [CMakeTools] 2024-06-26T21:55:43.986Z [error] [build]       |                  |        |
+2024-06-26 22:55:44.008 [error] [Extension Host] [CMakeTools] 2024-06-26T21:55:43.987Z [error] [build]       |                  int      double
+2024-06-26 22:55:44.009 [error] [Extension Host] [CMakeTools] 2024-06-26T21:55:43.987Z [error] [build]       |                 %f
+2024-06-26 23:13:31.816 [error] [Extension Host] [CMakeTools] 2024-06-26T22:13:31.815Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘main’:
+2024-06-26 23:13:31.817 [error] [Extension Host] [CMakeTools] 2024-06-26T22:13:31.815Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:18:17: warning: ‘c’ may be used uninitialized [-Wmaybe-uninitialized]
+2024-06-26 23:13:31.817 [error] [Extension Host] [CMakeTools] 2024-06-26T22:13:31.815Z [error] [build]    18 |                 printf("%c", c);
+2024-06-26 23:13:31.818 [error] [Extension Host] [CMakeTools] 2024-06-26T22:13:31.815Z [error] [build]       |                 ^~~~~~~~~~~~~~~
+2024-06-26 23:13:31.818 [error] [Extension Host] [CMakeTools] 2024-06-26T22:13:31.816Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:16:13: note: ‘c’ was declared here
+2024-06-26 23:13:31.820 [error] [Extension Host] [CMakeTools] 2024-06-26T22:13:31.816Z [error] [build]    16 |         int c;
+2024-06-26 23:13:31.820 [error] [Extension Host] [CMakeTools] 2024-06-26T22:13:31.816Z [error] [build]       |             ^
+2024-06-26 23:17:23.747 [error] [Extension Host] [CMakeTools] 2024-06-26T22:17:23.742Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘main’:
+2024-06-26 23:17:23.754 [error] [Extension Host] [CMakeTools] 2024-06-26T22:17:23.745Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:19:26: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
+2024-06-26 23:17:23.757 [error] [Extension Host] [CMakeTools] 2024-06-26T22:17:23.746Z [error] [build]    19 |                 printf("%s", ++linecount, s);
+2024-06-26 23:17:23.757 [error] [Extension Host] [CMakeTools] 2024-06-26T22:17:23.746Z [error] [build]       |                         ~^   ~~~~~~~~~~~
+2024-06-26 23:17:23.758 [error] [Extension Host] [CMakeTools] 2024-06-26T22:17:23.746Z [error] [build]       |                          |   |
+2024-06-26 23:17:23.760 [error] [Extension Host] [CMakeTools] 2024-06-26T22:17:23.746Z [error] [build]       |                          |   int
+2024-06-26 23:17:23.761 [error] [Extension Host] [CMakeTools] 2024-06-26T22:17:23.747Z [error] [build]       |                          char *
+2024-06-26 23:17:23.762 [error] [Extension Host] [CMakeTools] 2024-06-26T22:17:23.750Z [error] [build]       |                         %d
+2024-06-26 23:17:23.762 [error] [Extension Host] [CMakeTools] 2024-06-26T22:17:23.750Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:19:24: warning: too many arguments for format [-Wformat-extra-args]
+2024-06-26 23:17:23.763 [error] [Extension Host] [CMakeTools] 2024-06-26T22:17:23.750Z [error] [build]    19 |                 printf("%s", ++linecount, s);
+2024-06-26 23:17:23.763 [error] [Extension Host] [CMakeTools] 2024-06-26T22:17:23.751Z [error] [build]       |                        ^~~~
+2024-06-26 23:27:11.459 [error] [Extension Host] [CMakeTools] 2024-06-26T22:27:11.456Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘main’:
+2024-06-26 23:27:11.464 [error] [Extension Host] [CMakeTools] 2024-06-26T22:27:11.457Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:19:21: error: ‘s’ undeclared (first use in this function)
+2024-06-26 23:27:11.467 [error] [Extension Host] [CMakeTools] 2024-06-26T22:27:11.458Z [error] [build]    19 |         while(fgets(s, sizeof(s), test_file) != NULL) {
+2024-06-26 23:27:11.468 [error] [Extension Host] [CMakeTools] 2024-06-26T22:27:11.458Z [error] [build]       |                     ^
+2024-06-26 23:27:11.469 [error] [Extension Host] [CMakeTools] 2024-06-26T22:27:11.458Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:19:21: note: each undeclared identifier is reported only once for each function it appears in
+2024-06-26 23:27:11.471 [error] [Extension Host] [CMakeTools] 2024-06-26T22:27:11.462Z [error] [build] make[2]: *** [CMakeFiles/learningC.dir/build.make:76: CMakeFiles/learningC.dir/src/main.c.o] Error 1
+2024-06-26 23:27:11.472 [error] [Extension Host] [CMakeTools] 2024-06-26T22:27:11.462Z [error] [build] make[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/learningC.dir/all] Error 2
+2024-06-26 23:27:11.473 [error] [Extension Host] [CMakeTools] 2024-06-26T22:27:11.462Z [error] [build] make: *** [Makefile:91: all] Error 2
+2024-06-26 23:29:03.330 [error] [Extension Host] [CMakeTools] 2024-06-26T22:29:03.327Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘main’:
+2024-06-26 23:29:03.330 [error] [Extension Host] [CMakeTools] 2024-06-26T22:29:03.327Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:17:46: warning: comparison between pointer and integer
+2024-06-26 23:29:03.331 [error] [Extension Host] [CMakeTools] 2024-06-26T22:29:03.328Z [error] [build]    17 |         while(fgets(s, sizeof(s), test_file) != EOF) {
+2024-06-26 23:29:03.331 [error] [Extension Host] [CMakeTools] 2024-06-26T22:29:03.329Z [error] [build]       |                                              ^~
+2024-06-27 00:07:14.324 [error] [Extension Host] [CMakeTools] 2024-06-26T23:07:14.323Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘read_bin’:
+2024-06-27 00:07:14.325 [error] [Extension Host] [CMakeTools] 2024-06-26T23:07:14.323Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:23:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘char *’ [-Wformat=]
+2024-06-27 00:07:14.325 [error] [Extension Host] [CMakeTools] 2024-06-26T23:07:14.323Z [error] [build]    23 |                 printf("%d ", c);
+2024-06-27 00:07:14.326 [error] [Extension Host] [CMakeTools] 2024-06-26T23:07:14.324Z [error] [build]       |                         ~^    ~
+2024-06-27 00:07:14.327 [error] [Extension Host] [CMakeTools] 2024-06-26T23:07:14.324Z [error] [build]       |                          |    |
+2024-06-27 00:07:14.327 [error] [Extension Host] [CMakeTools] 2024-06-26T23:07:14.324Z [error] [build]       |                          int  char *
+2024-06-27 00:07:14.328 [error] [Extension Host] [CMakeTools] 2024-06-26T23:07:14.324Z [error] [build]       |                         %s
+2024-06-27 00:19:10.412 [error] [Extension Host] [CMakeTools] 2024-06-26T23:19:10.396Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘main’:
+2024-06-27 00:19:10.414 [error] [Extension Host] [CMakeTools] 2024-06-26T23:19:10.400Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:20:20: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+2024-06-27 00:19:10.423 [error] [Extension Host] [CMakeTools] 2024-06-26T23:19:10.401Z [error] [build]    20 |         printf("%.2d", car.price);
+2024-06-27 00:19:10.427 [error] [Extension Host] [CMakeTools] 2024-06-26T23:19:10.401Z [error] [build]       |                 ~~~^   ~~~~~~~~~
+2024-06-27 00:19:10.427 [error] [Extension Host] [CMakeTools] 2024-06-26T23:19:10.401Z [error] [build]       |                    |      |
+2024-06-27 00:19:10.427 [error] [Extension Host] [CMakeTools] 2024-06-26T23:19:10.401Z [error] [build]       |                    int    double
+2024-06-27 00:19:10.428 [error] [Extension Host] [CMakeTools] 2024-06-26T23:19:10.402Z [error] [build]       |                 %.2f
+2024-06-27 00:29:59.336 [error] [Extension Host] [CMakeTools] 2024-06-26T23:29:59.334Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘main’:
+2024-06-27 00:29:59.342 [error] [Extension Host] [CMakeTools] 2024-06-26T23:29:59.335Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:12:26: warning: comparison of integer expressions of different signedness: ‘int’ and ‘long unsigned int’ [-Wsign-compare]
+2024-06-27 00:29:59.342 [error] [Extension Host] [CMakeTools] 2024-06-26T23:29:59.335Z [error] [build]    12 |         for(int i = 0; i < sizeof(test_arr) / sizeof(test_arr[0]); i++, test_ptr++) {
+2024-06-27 00:29:59.343 [error] [Extension Host] [CMakeTools] 2024-06-26T23:29:59.336Z [error] [build]       |                          ^
+2024-06-27 01:42:09.456 [error] [Extension Host] [CMakeTools] 2024-06-27T00:42:09.455Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘main’:
+2024-06-27 01:42:09.456 [error] [Extension Host] [CMakeTools] 2024-06-27T00:42:09.455Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:14:9: warning: ‘*test_ptr’ is used uninitialized [-Wuninitialized]
+2024-06-27 01:42:09.457 [error] [Extension Host] [CMakeTools] 2024-06-27T00:42:09.455Z [error] [build]    14 |         printf("%d\n", *test_ptr);
+2024-06-27 01:42:09.457 [error] [Extension Host] [CMakeTools] 2024-06-27T00:42:09.455Z [error] [build]       |         ^~~~~~~~~~~~~~~~~~~~~~~~~

@@ -1,0 +1,23 @@
+[proc] Executing command: /usr/bin/cmake --version
+[proc] Executing command: /usr/bin/cmake -E capabilities
+[variant] Loaded new set of variants
+[proc] The command: ninja --version failed with error: Error: spawn ninja ENOENT
+[proc] The command: ninja-build --version failed with error: Error: spawn ninja-build ENOENT
+[main] Configuring project: learningC 
+[proc] Executing command: /usr/bin/cmake --no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -S/home/voxi0/Desktop/C/learningC -B/home/voxi0/Desktop/C/learningC/build -G "Unix Makefiles"
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- Configuring done (0.0s)
+[cmake] -- Generating done (0.0s)
+[cmake] -- Build files have been written to: /home/voxi0/Desktop/C/learningC/build
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘main’:
+[build] /home/voxi0/Desktop/C/learningC/src/main.c:9:28: warning: unused variable ‘testArrSize’ [-Wunused-variable]
+[build]     9 |         const unsigned int testArrSize = sizeof(testArr) / sizeof(testArr[0]);
+[build]       |                            ^~~~~~~~~~~
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.302
+[build] Build finished with exit code 0

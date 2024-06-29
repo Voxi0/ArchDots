@@ -1,0 +1,11 @@
+2024-06-25 21:49:48.326 [info] Started local extension host with pid 8519.
+2024-06-25 21:49:48.507 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-06-25 21:49:51.270 [info] [perf] Render performance baseline is 64ms
+2024-06-25 21:49:55.323 [info] Started local extension host with pid 8578.
+2024-06-25 21:49:58.105 [info] [perf] Render performance baseline is 64ms
+2024-06-25 21:49:59.121 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-06-26 00:13:10.075 [error] [Extension Host] [CMakeTools] 2024-06-25T23:13:10.069Z [error] [cmake] CMake Error at CMakeLists.txt:10 (add_executable):
+2024-06-26 00:13:10.076 [error] [Extension Host] [CMakeTools] 2024-06-25T23:13:10.070Z [error] [cmake]   C_STANDARD is set to invalid value '18'
+2024-06-26 00:13:10.076 [error] [Extension Host] [CMakeTools] 2024-06-25T23:13:10.071Z [error] [cmake] 
+2024-06-26 00:13:10.079 [error] [Extension Host] [CMakeTools] 2024-06-25T23:13:10.072Z [error] [cmake] 
+2024-06-26 00:13:10.080 [error] [Extension Host] [CMakeTools] 2024-06-25T23:13:10.075Z [error] [cmake] CMake Generate step failed.  Build files cannot be regenerated correctly.

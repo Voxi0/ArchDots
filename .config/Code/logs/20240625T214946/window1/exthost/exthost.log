@@ -1,0 +1,28 @@
+2024-06-25 21:49:49.124 [info] Extension host with pid 8519 started
+2024-06-25 21:49:49.182 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-06-25 21:49:49.242 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-06-25 21:49:49.300 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-06-25 21:49:49.429 [info] Eager extensions activated
+2024-06-25 21:49:49.444 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-06-25 21:49:49.448 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-06-25 21:49:49.458 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-06-25 21:49:54.445 [info] Extension host terminating: renderer closed the MessagePort
+2024-06-25 21:49:54.467 [info] Extension host with pid 8519 exiting with code 0
+2024-06-25 21:49:56.035 [info] Extension host with pid 8578 started
+2024-06-25 21:49:56.035 [info] Skipping acquiring lock for /home/voxi0/.config/Code/User/workspaceStorage/de6b909ee36c4bcf79388e30033af070.
+2024-06-25 21:49:56.099 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-06-25 21:49:56.213 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-06-25 21:49:56.260 [info] Eager extensions activated
+2024-06-25 21:49:56.266 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-06-25 21:49:56.271 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-06-25 21:49:56.284 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-06-25 21:49:59.336 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-06-25 21:49:59.520 [info] ExtensionService#_doActivateExtension ms-vscode.cmake-tools, startup: false, activationEvent: 'workspaceContains:CMakeLists.txt'
+2024-06-25 21:50:00.368 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:c'
+2024-06-25 21:50:00.505 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-06-25 22:25:46.547 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-06-26 00:12:53.706 [info] ExtensionService#_doActivateExtension twxs.cmake, startup: false, activationEvent: 'onLanguage:cmake'
+2024-06-26 00:13:13.706 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-06-26 00:13:13.739 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-06-26 00:36:54.129 [info] Extension host terminating: renderer closed the MessagePort
+2024-06-26 00:36:54.248 [info] Extension host with pid 8578 exiting with code 0

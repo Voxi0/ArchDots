@@ -1,0 +1,121 @@
+[proc] Executing command: /usr/bin/cmake --version
+[proc] Executing command: /usr/bin/cmake -E capabilities
+[variant] Loaded new set of variants
+[kit] Successfully loaded 3 kits from /home/voxi0/.local/share/CMakeTools/cmake-tools-kits.json
+[proc] Executing command: /usr/bin/gcc -v
+[proc] The command: ninja --version failed with error: Error: spawn ninja ENOENT
+[proc] The command: ninja-build --version failed with error: Error: spawn ninja-build ENOENT
+[main] Configuring project: learningC 
+[proc] Executing command: /usr/bin/cmake --no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ -S/home/voxi0/Desktop/C/learningC -B/home/voxi0/Desktop/C/learningC/build -G "Unix Makefiles"
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- Configuring done (0.0s)
+[cmake] -- Generating done (0.0s)
+[cmake] -- Build files have been written to: /home/voxi0/Desktop/C/learningC/build
+[kit] Successfully loaded 3 kits from /home/voxi0/.local/share/CMakeTools/cmake-tools-kits.json
+[kit] Successfully loaded 2 kits from /home/voxi0/.local/share/CMakeTools/cmake-tools-kits.json
+[proc] Executing command: /usr/bin/gcc -v
+[proc] Executing command: /usr/bin/x86_64-linux-gnu-gcc -v
+[proc] Executing command: /usr/bin/x86_64-pc-linux-gnu-gcc -v
+[proc] Executing command: /usr/bin/x86_64-pc-linux-gnu-gcc-14.1.1 -v
+[proc] Executing command: /usr/bin/x86_64-pc-linux-gnu-gcc -v
+[kit] Found Kit (trusted): GCC 14.1.1 x86_64-pc-linux-gnu
+[kit] Found Kit (trusted): GCC 14.1.1 x86_64-pc-linux-gnu
+[kit] Found Kit (trusted): GCC 14.1.1 x86_64-pc-linux-gnu
+[kit] Found Kit (trusted): GCC 14.1.1 x86_64-pc-linux-gnu
+[kit] Successfully loaded 2 kits from /home/voxi0/.local/share/CMakeTools/cmake-tools-kits.json
+[driver] Switching to kit: Clang-cl 17.0.6 x86_64-pc-windows-msvc
+[proc] The command: ninja --version failed with error: Error: spawn ninja ENOENT
+[proc] The command: ninja-build --version failed with error: Error: spawn ninja-build ENOENT
+[driver] Removing /home/voxi0/Desktop/C/learningC/build/CMakeCache.txt
+[driver] Removing /home/voxi0/Desktop/C/learningC/build/CMakeFiles
+[main] Configuring project: learningC 
+[proc] Executing command: /usr/bin/cmake --no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/clang-cl -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/clang-cl -S/home/voxi0/Desktop/C/learningC -B/home/voxi0/Desktop/C/learningC/build -G "Unix Makefiles"
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- The C compiler identification is unknown
+[cmake] CMake Error at CMakeLists.txt:5 (project):
+[cmake]   The CMAKE_C_COMPILER:
+[cmake] 
+[cmake]     /usr/bin/clang-cl
+[cmake] 
+[cmake]   is not a full path to an existing compiler tool.
+[cmake] 
+[cmake]   Tell CMake where to find the compiler by setting either the environment
+[cmake]   variable "CC" or the CMake cache entry CMAKE_C_COMPILER to the full path to
+[cmake]   the compiler, or to the compiler name if it is in the PATH.
+[cmake] 
+[cmake] 
+[cmake] -- Configuring incomplete, errors occurred!
+[proc] The command: /usr/bin/cmake --no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/clang-cl -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/clang-cl -S/home/voxi0/Desktop/C/learningC -B/home/voxi0/Desktop/C/learningC/build -G "Unix Makefiles" exited with code: 1
+[proc] The command: clang-cl -v failed with error: Error: spawn clang-cl ENOENT
+[proc] The command: clang-cl -v failed with error: Error: spawn clang-cl ENOENT
+[proc] Executing command: /usr/bin/gcc -v
+[proc] Executing command: /usr/bin/x86_64-linux-gnu-gcc -v
+[proc] Executing command: /usr/bin/x86_64-pc-linux-gnu-gcc -v
+[proc] Executing command: /usr/bin/x86_64-pc-linux-gnu-gcc-14.1.1 -v
+[proc] Executing command: /usr/bin/x86_64-pc-linux-gnu-gcc -v
+[kit] Found Kit (trusted): GCC 14.1.1 x86_64-pc-linux-gnu
+[kit] Found Kit (trusted): GCC 14.1.1 x86_64-pc-linux-gnu
+[kit] Found Kit (trusted): GCC 14.1.1 x86_64-pc-linux-gnu
+[kit] Found Kit (trusted): GCC 14.1.1 x86_64-pc-linux-gnu
+[kit] Successfully loaded 2 kits from /home/voxi0/.local/share/CMakeTools/cmake-tools-kits.json
+[driver] Switching to kit: GCC 14.1.1 x86_64-pc-linux-gnu
+[proc] Executing command: /usr/bin/gcc -v
+[proc] The command: ninja --version failed with error: Error: spawn ninja ENOENT
+[proc] The command: ninja-build --version failed with error: Error: spawn ninja-build ENOENT
+[driver] Removing /home/voxi0/Desktop/C/learningC/build/CMakeCache.txt
+[driver] Removing /home/voxi0/Desktop/C/learningC/build/CMakeFiles
+[main] Configuring project: learningC 
+[proc] Executing command: /usr/bin/cmake --no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ -S/home/voxi0/Desktop/C/learningC -B/home/voxi0/Desktop/C/learningC/build -G "Unix Makefiles"
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- The C compiler identification is GNU 14.1.1
+[cmake] -- Detecting C compiler ABI info
+[cmake] -- Detecting C compiler ABI info - done
+[cmake] -- Check for working C compiler: /usr/bin/gcc - skipped
+[cmake] -- Detecting C compile features
+[cmake] -- Detecting C compile features - done
+[cmake] -- Configuring done (0.5s)
+[cmake] -- Generating done (0.0s)
+[cmake] -- Build files have been written to: /home/voxi0/Desktop/C/learningC/build
+[driver] Switching to kit: Clang-cl 17.0.6 x86_64-pc-windows-msvc
+[proc] The command: ninja --version failed with error: Error: spawn ninja ENOENT
+[proc] The command: ninja-build --version failed with error: Error: spawn ninja-build ENOENT
+[driver] Removing /home/voxi0/Desktop/C/learningC/build/CMakeCache.txt
+[driver] Removing /home/voxi0/Desktop/C/learningC/build/CMakeFiles
+[main] Configuring project: learningC 
+[proc] Executing command: /usr/bin/cmake --no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/clang-cl -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/clang-cl -S/home/voxi0/Desktop/C/learningC -B/home/voxi0/Desktop/C/learningC/build -G "Unix Makefiles"
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- The C compiler identification is unknown
+[cmake] CMake Error at CMakeLists.txt:5 (project):
+[cmake]   The CMAKE_C_COMPILER:
+[cmake] 
+[cmake]     /usr/bin/clang-cl
+[cmake] 
+[cmake]   is not a full path to an existing compiler tool.
+[cmake] 
+[cmake]   Tell CMake where to find the compiler by setting either the environment
+[cmake]   variable "CC" or the CMake cache entry CMAKE_C_COMPILER to the full path to
+[cmake]   the compiler, or to the compiler name if it is in the PATH.
+[cmake] 
+[cmake] 
+[cmake] -- Configuring incomplete, errors occurred!
+[proc] The command: /usr/bin/cmake --no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/clang-cl -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/clang-cl -S/home/voxi0/Desktop/C/learningC -B/home/voxi0/Desktop/C/learningC/build -G "Unix Makefiles" exited with code: 1
+[proc] The command: clang-cl -v failed with error: Error: spawn clang-cl ENOENT
+[proc] The command: clang-cl -v failed with error: Error: spawn clang-cl ENOENT
+[driver] Switching to kit: GCC 14.1.1 x86_64-pc-linux-gnu
+[proc] Executing command: /usr/bin/gcc -v
+[proc] The command: ninja --version failed with error: Error: spawn ninja ENOENT
+[proc] The command: ninja-build --version failed with error: Error: spawn ninja-build ENOENT
+[driver] Removing /home/voxi0/Desktop/C/learningC/build/CMakeCache.txt
+[driver] Removing /home/voxi0/Desktop/C/learningC/build/CMakeFiles
+[main] Configuring project: learningC 
+[proc] Executing command: /usr/bin/cmake --no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ -S/home/voxi0/Desktop/C/learningC -B/home/voxi0/Desktop/C/learningC/build -G "Unix Makefiles"
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- The C compiler identification is GNU 14.1.1
+[cmake] -- Detecting C compiler ABI info
+[cmake] -- Detecting C compiler ABI info - done
+[cmake] -- Check for working C compiler: /usr/bin/gcc - skipped
+[cmake] -- Detecting C compile features
+[cmake] -- Detecting C compile features - done
+[cmake] -- Configuring done (0.5s)
+[cmake] -- Generating done (0.0s)
+[cmake] -- Build files have been written to: /home/voxi0/Desktop/C/learningC/build

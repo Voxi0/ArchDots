@@ -1,0 +1,7 @@
+2024-06-26 20:39:33.021 [info] Started local extension host with pid 3146.
+2024-06-26 20:39:33.208 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-06-26 20:39:36.342 [info] [perf] Render performance baseline is 91ms
+2024-06-26 21:40:41.916 [error] [Extension Host] [CMakeTools] 2024-06-26T20:40:41.915Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘main’:
+2024-06-26 21:40:41.917 [error] [Extension Host] [CMakeTools] 2024-06-26T20:40:41.916Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:9:28: warning: unused variable ‘testArrSize’ [-Wunused-variable]
+2024-06-26 21:40:41.918 [error] [Extension Host] [CMakeTools] 2024-06-26T20:40:41.916Z [error] [build]     9 |         const unsigned int testArrSize = sizeof(testArr) / sizeof(testArr[0]);
+2024-06-26 21:40:41.920 [error] [Extension Host] [CMakeTools] 2024-06-26T20:40:41.916Z [error] [build]       |                            ^~~~~~~~~~~

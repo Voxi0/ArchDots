@@ -1,0 +1,37 @@
+2024-06-24 22:44:04.920 [info] Log level: Info
+2024-06-24 22:44:04.920 [info] Validating found git in: "git"
+2024-06-24 22:44:04.920 [info] Using git "2.45.2" from "git"
+2024-06-24 22:44:19.267 [info] Log level: Info
+2024-06-24 22:44:19.267 [info] Validating found git in: "git"
+2024-06-24 22:44:19.267 [info] Using git "2.45.2" from "git"
+2024-06-24 22:44:19.267 [info] > git rev-parse --show-toplevel [14ms]
+2024-06-24 22:44:19.274 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-06-24 22:44:19.291 [info] Open repository: /home/voxi0/Desktop/C++/HyprSettings
+2024-06-24 22:44:19.311 [info] > git rev-parse --show-toplevel [6ms]
+2024-06-24 22:44:19.312 [info] > git config --get commit.template [12ms]
+2024-06-24 22:44:19.327 [info] No remotes found in the git config file.
+2024-06-24 22:44:19.327 [info] > git rev-parse --show-toplevel [8ms]
+2024-06-24 22:44:19.332 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-06-24 22:44:19.332 [warning] No such branch: main.
+2024-06-24 22:44:19.338 [info] > git rev-parse --show-toplevel [7ms]
+2024-06-24 22:44:19.342 [info] > git status -z -uall [5ms]
+2024-06-24 22:44:19.361 [info] > git config --get commit.template [5ms]
+2024-06-24 22:44:19.361 [info] No remotes found in the git config file.
+2024-06-24 22:44:19.367 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-06-24 22:44:19.367 [warning] No such branch: main.
+2024-06-24 22:44:19.375 [info] > git status -z -uall [2ms]
+2024-06-24 22:45:18.483 [info] > git check-ignore -v -z --stdin [1ms]
+2024-06-24 22:45:19.817 [info] > git check-ignore -v -z --stdin [2ms]
+2024-06-24 22:45:21.309 [info] > git show --textconv :src/main.cpp [1ms]
+2024-06-24 22:45:21.321 [info] > git ls-files --stage -- /home/voxi0/Desktop/C++/HyprSettings/src/main.cpp [2ms]
+2024-06-24 22:45:41.198 [info] > git show --textconv :src/main.cpp [0ms]
+2024-06-24 22:45:41.219 [info] > git ls-files --stage -- /home/voxi0/Desktop/C++/HyprSettings/src/main.cpp [1ms]
+2024-06-24 22:46:13.521 [info] > git show --textconv :src/main.cpp [10ms]
+2024-06-24 22:46:13.523 [info] > git ls-files --stage -- /home/voxi0/Desktop/C++/HyprSettings/src/main.cpp [3ms]
+2024-06-24 22:46:16.569 [info] > git show --textconv :src/main.cpp [8ms]
+2024-06-24 22:46:16.571 [info] > git ls-files --stage -- /home/voxi0/Desktop/C++/HyprSettings/src/main.cpp [3ms]
+2024-06-24 22:46:31.010 [info] No remotes found in the git config file.
+2024-06-24 22:46:31.011 [info] > git config --get commit.template [7ms]
+2024-06-24 22:46:31.011 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-06-24 22:46:31.012 [warning] No such branch: main.
+2024-06-24 22:46:31.019 [info] > git status -z -uall [2ms]

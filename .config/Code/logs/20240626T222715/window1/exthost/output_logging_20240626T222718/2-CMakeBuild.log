@@ -1,0 +1,923 @@
+[proc] Executing command: /usr/bin/cmake --version
+[proc] Executing command: /usr/bin/cmake -E capabilities
+[variant] Loaded new set of variants
+[proc] The command: ninja --version failed with error: Error: spawn ninja ENOENT
+[proc] The command: ninja-build --version failed with error: Error: spawn ninja-build ENOENT
+[main] Configuring project: learningC 
+[proc] Executing command: /usr/bin/cmake --no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -S/home/voxi0/Desktop/C/learningC -B/home/voxi0/Desktop/C/learningC/build -G "Unix Makefiles"
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- Configuring done (0.0s)
+[cmake] -- Generating done (0.0s)
+[cmake] -- Build files have been written to: /home/voxi0/Desktop/C/learningC/build
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘times2’:
+[build] /home/voxi0/Desktop/C/learningC/src/main.c:7:28: warning: ‘sizeof’ on array function parameter ‘arr’ will return size of ‘const int **’ [-Wsizeof-array-argument]
+[build]     7 |         int arrLen = sizeof(arr) / sizeof(arr[0]);
+[build]       |                            ^
+[build] /home/voxi0/Desktop/C/learningC/src/main.c:6:24: note: declared here
+[build]     6 | void times2(const int *arr[]) {
+[build]       |             ~~~~~~~~~~~^~~~~
+[build] /home/voxi0/Desktop/C/learningC/src/main.c:9:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘const int *’ [-Wformat=]
+[build]     9 |                 printf("%d, ", arr[i]);
+[build]       |                         ~^     ~~~~~~
+[build]       |                          |        |
+[build]       |                          int      const int *
+[build]       |                         %ls
+[build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘main’:
+[build] /home/voxi0/Desktop/C/learningC/src/main.c:21:16: error: passing argument 1 of ‘times2’ from incompatible pointer type [-Wincompatible-pointer-types]
+[build]    21 |         times2(testArrPtr);
+[build]       |                ^~~~~~~~~~
+[build]       |                |
+[build]       |                const int *
+[build] /home/voxi0/Desktop/C/learningC/src/main.c:6:24: note: expected ‘const int **’ but argument is of type ‘const int *’
+[build]     6 | void times2(const int *arr[]) {
+[build]       |             ~~~~~~~~~~~^~~~~
+[build] /home/voxi0/Desktop/C/learningC/src/main.c:17:28: warning: unused variable ‘testArrSize’ [-Wunused-variable]
+[build]    17 |         const unsigned int testArrSize = sizeof(testArr) / sizeof(testArr[0]);
+[build]       |                            ^~~~~~~~~~~
+[build] make[2]: *** [CMakeFiles/learningC.dir/build.make:76: CMakeFiles/learningC.dir/src/main.c.o] Error 1
+[build] make[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/learningC.dir/all] Error 2
+[build] make: *** [Makefile:91: all] Error 2
+[proc] The command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 -- exited with code: 2
+[driver] Build completed: 00:00:00.175
+[build] Build finished with exit code 2
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘times2’:
+[build] /home/voxi0/Desktop/C/learningC/src/main.c:7:28: warning: ‘sizeof’ on array function parameter ‘arr’ will return size of ‘const int **’ [-Wsizeof-array-argument]
+[build]     7 |         int arrLen = sizeof(arr) / sizeof(arr[0]);
+[build]       |                            ^
+[build] /home/voxi0/Desktop/C/learningC/src/main.c:6:24: note: declared here
+[build]     6 | void times2(const int *arr[]) {
+[build]       |             ~~~~~~~~~~~^~~~~
+[build] /home/voxi0/Desktop/C/learningC/src/main.c:9:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘const int *’ [-Wformat=]
+[build]     9 |                 printf("%d, ", arr[i]);
+[build]       |                         ~^     ~~~~~~
+[build]       |                          |        |
+[build]       |                          int      const int *
+[build]       |                         %ls
+[build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘main’:
+[build] /home/voxi0/Desktop/C/learningC/src/main.c:20:16: error: passing argument 1 of ‘times2’ from incompatible pointer type [-Wincompatible-pointer-types]
+[build]    20 |         times2(testArrPtr);
+[build]       |                ^~~~~~~~~~
+[build]       |                |
+[build]       |                const int *
+[build] /home/voxi0/Desktop/C/learningC/src/main.c:6:24: note: expected ‘const int **’ but argument is of type ‘const int *’
+[build]     6 | void times2(const int *arr[]) {
+[build]       |             ~~~~~~~~~~~^~~~~
+[build] make[2]: *** [CMakeFiles/learningC.dir/build.make:76: CMakeFiles/learningC.dir/src/main.c.o] Error 1
+[build] make[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/learningC.dir/all] Error 2
+[build] make: *** [Makefile:91: all] Error 2
+[proc] The command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 -- exited with code: 2
+[driver] Build completed: 00:00:00.136
+[build] Build finished with exit code 2
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘times2’:
+[build] /home/voxi0/Desktop/C/learningC/src/main.c:7:35: warning: division ‘sizeof (const int *) / sizeof (int)’ does not compute the number of array elements [-Wsizeof-pointer-div]
+[build]     7 |         int arrLen = sizeof(*arr) / sizeof(*arr[0]);
+[build]       |                                   ^
+[build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘main’:
+[build] /home/voxi0/Desktop/C/learningC/src/main.c:20:16: error: passing argument 1 of ‘times2’ from incompatible pointer type [-Wincompatible-pointer-types]
+[build]    20 |         times2(testArrPtr);
+[build]       |                ^~~~~~~~~~
+[build]       |                |
+[build]       |                const int *
+[build] /home/voxi0/Desktop/C/learningC/src/main.c:6:24: note: expected ‘const int **’ but argument is of type ‘const int *’
+[build]     6 | void times2(const int *arr[]) {
+[build]       |             ~~~~~~~~~~~^~~~~
+[build] make[2]: *** [CMakeFiles/learningC.dir/build.make:76: CMakeFiles/learningC.dir/src/main.c.o] Error 1
+[build] make[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/learningC.dir/all] Error 2
+[build] make: *** [Makefile:91: all] Error 2
+[proc] The command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 -- exited with code: 2
+[driver] Build completed: 00:00:00.124
+[build] Build finished with exit code 2
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘times2’:
+[build] /home/voxi0/Desktop/C/learningC/src/main.c:7:28: warning: ‘sizeof’ on array function parameter ‘arr’ will return size of ‘const int **’ [-Wsizeof-array-argument]
+[build]     7 |         int arrLen = sizeof(arr) / sizeof(arr[0]);
+[build]       |                            ^
+[build] /home/voxi0/Desktop/C/learningC/src/main.c:6:24: note: declared here
+[build]     6 | void times2(const int *arr[]) {
+[build]       |             ~~~~~~~~~~~^~~~~
+[build] /home/voxi0/Desktop/C/learningC/src/main.c:9:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘const int *’ [-Wformat=]
+[build]     9 |                 printf("%d, ", arr[i]);
+[build]       |                         ~^     ~~~~~~
+[build]       |                          |        |
+[build]       |                          int      const int *
+[build]       |                         %ls
+[build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘main’:
+[build] /home/voxi0/Desktop/C/learningC/src/main.c:20:16: error: passing argument 1 of ‘times2’ from incompatible pointer type [-Wincompatible-pointer-types]
+[build]    20 |         times2(testArrPtr);
+[build]       |                ^~~~~~~~~~
+[build]       |                |
+[build]       |                const int *
+[build] /home/voxi0/Desktop/C/learningC/src/main.c:6:24: note: expected ‘const int **’ but argument is of type ‘const int *’
+[build]     6 | void times2(const int *arr[]) {
+[build]       |             ~~~~~~~~~~~^~~~~
+[build] make[2]: *** [CMakeFiles/learningC.dir/build.make:76: CMakeFiles/learningC.dir/src/main.c.o] Error 1
+[build] make[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/learningC.dir/all] Error 2
+[build] make: *** [Makefile:91: all] Error 2
+[proc] The command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 -- exited with code: 2
+[driver] Build completed: 00:00:00.132
+[build] Build finished with exit code 2
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘times2’:
+[build] /home/voxi0/Desktop/C/learningC/src/main.c:7:34: warning: division ‘sizeof (const int *) / sizeof (int)’ does not compute the number of array elements [-Wsizeof-pointer-div]
+[build]     7 |         int arrLen = sizeof(arr) / sizeof(arr[0]);
+[build]       |                                  ^
+[build] /home/voxi0/Desktop/C/learningC/src/main.c:6:24: note: first ‘sizeof’ operand was declared here
+[build]     6 | void times2(const int *arr) {
+[build]       |             ~~~~~~~~~~~^~~
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.302
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.213
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.273
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.253
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘main’:
+[build] /home/voxi0/Desktop/C/learningC/src/main.c:18:27: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+[build]    18 |         int *testArrPtr = &testArr[0];
+[build]       |                           ^
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.303
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘main’:
+[build] /home/voxi0/Desktop/C/learningC/src/main.c:18:27: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+[build]    18 |         int *testArrPtr = &testArr[0];
+[build]       |                           ^
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.239
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.228
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘main’:
+[build] /home/voxi0/Desktop/C/learningC/src/main.c:20:16: error: passing argument 1 of ‘times2’ from incompatible pointer type [-Wincompatible-pointer-types]
+[build]    20 |         times2(&testArr, testArrSize);
+[build]       |                ^~~~~~~~
+[build]       |                |
+[build]       |                int (*)[4]
+[build] /home/voxi0/Desktop/C/learningC/src/main.c:6:18: note: expected ‘int *’ but argument is of type ‘int (*)[4]’
+[build]     6 | void times2(int *arr, const unsigned int arrLen) {
+[build]       |             ~~~~~^~~
+[build] make[2]: *** [CMakeFiles/learningC.dir/build.make:76: CMakeFiles/learningC.dir/src/main.c.o] Error 1
+[build] make[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/learningC.dir/all] Error 2
+[build] make: *** [Makefile:91: all] Error 2
+[proc] The command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 -- exited with code: 2
+[driver] Build completed: 00:00:00.164
+[build] Build finished with exit code 2
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.239
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.281
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.239
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘custom_strlen’:
+[build] /home/voxi0/Desktop/C/learningC/src/main.c:10:29: warning: comparison between pointer and integer
+[build]    10 |         while(string[count] != "\0")
+[build]       |                             ^~
+[build] /home/voxi0/Desktop/C/learningC/src/main.c:10:29: warning: comparison with string literal results in unspecified behavior [-Waddress]
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.292
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.315
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘main’:
+[build] /home/voxi0/Desktop/C/learningC/src/main.c:25:18: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+[build]    25 |         printf("%d\n", car.price);
+[build]       |                 ~^     ~~~~~~~~~
+[build]       |                  |        |
+[build]       |                  int      double
+[build]       |                 %f
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.321
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.277
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.222
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.234
+[build] Build finished with exit code 0
+[proc] Executing command: /usr/bin/gdb --version
+[proc] The command: /usr/bin/gdb --version exited with code: 127
+[proc] Executing command: gdb --version
+[proc] The command: gdb --version exited with code: 127
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.123
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.224
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.351
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.227
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.244
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘main’:
+[build] /home/voxi0/Desktop/C/learningC/src/main.c:18:17: warning: ‘c’ may be used uninitialized [-Wmaybe-uninitialized]
+[build]    18 |                 printf("%c", c);
+[build]       |                 ^~~~~~~~~~~~~~~
+[build] /home/voxi0/Desktop/C/learningC/src/main.c:16:13: note: ‘c’ was declared here
+[build]    16 |         int c;
+[build]       |             ^
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.252
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.221
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.235
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.289
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘main’:
+[build] /home/voxi0/Desktop/C/learningC/src/main.c:19:26: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]
+[build]    19 |                 printf("%s", ++linecount, s);
+[build]       |                         ~^   ~~~~~~~~~~~
+[build]       |                          |   |
+[build]       |                          |   int
+[build]       |                          char *
+[build]       |                         %d
+[build] /home/voxi0/Desktop/C/learningC/src/main.c:19:24: warning: too many arguments for format [-Wformat-extra-args]
+[build]    19 |                 printf("%s", ++linecount, s);
+[build]       |                        ^~~~
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.301
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.290
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘main’:
+[build] /home/voxi0/Desktop/C/learningC/src/main.c:19:21: error: ‘s’ undeclared (first use in this function)
+[build]    19 |         while(fgets(s, sizeof(s), test_file) != NULL) {
+[build]       |                     ^
+[build] /home/voxi0/Desktop/C/learningC/src/main.c:19:21: note: each undeclared identifier is reported only once for each function it appears in
+[build] make[2]: *** [CMakeFiles/learningC.dir/build.make:76: CMakeFiles/learningC.dir/src/main.c.o] Error 1
+[build] make[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/learningC.dir/all] Error 2
+[build] make: *** [Makefile:91: all] Error 2
+[proc] The command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 -- exited with code: 2
+[driver] Build completed: 00:00:00.157
+[build] Build finished with exit code 2
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.256
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.258
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘main’:
+[build] /home/voxi0/Desktop/C/learningC/src/main.c:17:46: warning: comparison between pointer and integer
+[build]    17 |         while(fgets(s, sizeof(s), test_file) != EOF) {
+[build]       |                                              ^~
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.225
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.222
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.292
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.246
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.220
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.246
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.120
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.228
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.230
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.253
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.254
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.226
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.223
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.251
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.359
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.223
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.225
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.210
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘read_bin’:
+[build] /home/voxi0/Desktop/C/learningC/src/main.c:23:26: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘char *’ [-Wformat=]
+[build]    23 |                 printf("%d ", c);
+[build]       |                         ~^    ~
+[build]       |                          |    |
+[build]       |                          int  char *
+[build]       |                         %s
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.234
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.232
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.437
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.352
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.255
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘main’:
+[build] /home/voxi0/Desktop/C/learningC/src/main.c:20:20: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+[build]    20 |         printf("%.2d", car.price);
+[build]       |                 ~~~^   ~~~~~~~~~
+[build]       |                    |      |
+[build]       |                    int    double
+[build]       |                 %.2f
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.371
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.238
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.279
+[build] Build finished with exit code 0
+[main] Building folder: learningC 
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.254
+[build] Build finished with exit code 0
+[proc] Executing command: /usr/bin/cpack -C Debug
+[cpack] CPack Error: CPack generator not specified
+[proc] The command: /usr/bin/cpack -C Debug exited with code: 1
+[cpack] CPack finished with return code 1
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.237
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘main’:
+[build] /home/voxi0/Desktop/C/learningC/src/main.c:12:26: warning: comparison of integer expressions of different signedness: ‘int’ and ‘long unsigned int’ [-Wsign-compare]
+[build]    12 |         for(int i = 0; i < sizeof(test_arr) / sizeof(test_arr[0]); i++, test_ptr++) {
+[build]       |                          ^
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.242
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.286
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.232
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.223
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.223
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.248
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘main’:
+[build] /home/voxi0/Desktop/C/learningC/src/main.c:14:9: warning: ‘*test_ptr’ is used uninitialized [-Wuninitialized]
+[build]    14 |         printf("%d\n", *test_ptr);
+[build]       |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.210
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.112
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.107
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.142
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.096
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[main] Building folder: learningC all
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.141
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] Build finished with exit code 0
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.188
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[main] Building folder: learningC all
+[build] Starting build
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.139
+[build] Build finished with exit code -1
+[build] Build finished with exit code 0
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[main] Building folder: learningC all
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.135
+[main] Building folder: learningC all
+[build] Build finished with exit code 0
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.175
+[build] Build finished with exit code 0
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[main] Building folder: learningC all
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.231
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[main] Building folder: learningC all
+[main] Building folder: learningC all
+[build] Starting build
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.116
+[build] Build finished with exit code -1
+[build] Starting build
+[build] Build finished with exit code 0
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.128
+[build] Starting build
+[build] Build finished with exit code 0
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.166
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Debug --target all -j 6 --
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.163
+[build] Build finished with exit code 0
+[proc] Executing command: /usr/bin/clang -v
+[proc] Executing command: /usr/bin/clang-17 -v
+[proc] Executing command: /usr/bin/clang-cl -v
+[proc] Executing command: /usr/bin/gcc -v
+[proc] Executing command: /usr/bin/x86_64-linux-gnu-gcc -v
+[proc] Executing command: /usr/bin/x86_64-pc-linux-gnu-gcc -v
+[proc] Executing command: /usr/bin/x86_64-pc-linux-gnu-gcc-14.1.1 -v
+[proc] Executing command: /usr/bin/x86_64-pc-linux-gnu-gcc -v
+[proc] Executing command: /usr/bin/clang -v
+[kit] Found Kit (trusted): Clang 17.0.6 x86_64-pc-linux-gnu
+[kit] Found Kit (trusted): Clang 17.0.6 x86_64-pc-linux-gnu
+[kit] Found Kit (trusted): Clang-cl 17.0.6 x86_64-pc-windows-msvc
+[kit] Found Kit (trusted): GCC 14.1.1 x86_64-pc-linux-gnu
+[kit] Found Kit (trusted): GCC 14.1.1 x86_64-pc-linux-gnu
+[kit] Found Kit (trusted): GCC 14.1.1 x86_64-pc-linux-gnu
+[kit] Found Kit (trusted): GCC 14.1.1 x86_64-pc-linux-gnu
+[kit] Successfully loaded 3 kits from /home/voxi0/.local/share/CMakeTools/cmake-tools-kits.json
+[driver] Switching to kit: GCC 14.1.1 x86_64-pc-linux-gnu
+[proc] Executing command: /usr/bin/gcc -v
+[proc] The command: ninja --version failed with error: Error: spawn ninja ENOENT
+[proc] The command: ninja-build --version failed with error: Error: spawn ninja-build ENOENT
+[driver] Removing /home/voxi0/Desktop/C/learningC/build/CMakeCache.txt
+[driver] Removing /home/voxi0/Desktop/C/learningC/build/CMakeFiles
+[main] Configuring project: learningC 
+[proc] Executing command: /usr/bin/cmake --no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ -S/home/voxi0/Desktop/C/learningC -B/home/voxi0/Desktop/C/learningC/build -G "Unix Makefiles"
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- The C compiler identification is GNU 14.1.1
+[cmake] -- Detecting C compiler ABI info
+[cmake] -- Detecting C compiler ABI info - done
+[cmake] -- Check for working C compiler: /usr/bin/gcc - skipped
+[cmake] -- Detecting C compile features
+[cmake] -- Detecting C compile features - done
+[cmake] -- Configuring done (0.3s)
+[cmake] -- Generating done (0.0s)
+[cmake] -- Build files have been written to: /home/voxi0/Desktop/C/learningC/build
+[main] Configuring project: learningC 
+[proc] Executing command: /usr/bin/cmake --no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Release -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ -S/home/voxi0/Desktop/C/learningC -B/home/voxi0/Desktop/C/learningC/build -G "Unix Makefiles"
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- Configuring done (0.0s)
+[cmake] -- Generating done (0.0s)
+[cmake] -- Build files have been written to: /home/voxi0/Desktop/C/learningC/build
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Release --target all -j 6 --
+[build] [ 50%] Building C object CMakeFiles/learningC.dir/src/main.c.o
+[build] [100%] Linking C executable learningC
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.198
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Release --target all -j 6 --
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.130
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Release --target all -j 6 --
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.108
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Release --target all -j 6 --
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.108
+[build] Build finished with exit code 0
+[main] Building folder: learningC all
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/voxi0/Desktop/C/learningC/build --config Release --target all -j 6 --
+[build] [100%] Built target learningC
+[driver] Build completed: 00:00:00.100
+[build] Build finished with exit code 0
+[main] Configuring project: learningC 
+[proc] Executing command: /usr/bin/cmake --no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc -DCMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++ -S/home/voxi0/Desktop/C/learningC -B/home/voxi0/Desktop/C/learningC/build -G "Unix Makefiles"
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- Configuring done (0.0s)
+[cmake] -- Generating done (0.0s)
+[cmake] -- Build files have been written to: /home/voxi0/Desktop/C/learningC/build

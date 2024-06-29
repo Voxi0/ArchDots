@@ -1,0 +1,52 @@
+2024-06-24 22:44:25.692 [info] Getting Manifest... ms-vscode.cpptools
+2024-06-24 22:44:25.713 [info] Installing extension: ms-vscode.cpptools vscode-userdata:/home/voxi0/.vscode/extensions/extensions.json
+2024-06-24 22:44:30.849 [info] Getting Manifest... ms-vscode.cmake-tools
+2024-06-24 22:44:30.866 [info] Installing extension: ms-vscode.cmake-tools vscode-userdata:/home/voxi0/.vscode/extensions/extensions.json
+2024-06-24 22:44:31.562 [info] Getting Manifest... twxs.cmake
+2024-06-24 22:44:31.755 [info] Installing extension: twxs.cmake vscode-userdata:/home/voxi0/.vscode/extensions/extensions.json
+2024-06-24 22:44:33.650 [info] Extension signature verification result for twxs.cmake: UnknownError. Executed: true. Duration: 26ms.
+2024-06-24 22:44:33.915 [info] Extracted extension to file:///home/voxi0/.vscode/extensions/twxs.cmake-0.0.17: twxs.cmake
+2024-06-24 22:44:33.930 [info] Renamed to /home/voxi0/.vscode/extensions/twxs.cmake-0.0.17
+2024-06-24 22:44:34.070 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/voxi0/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/voxi0/.vscode/extensions/extensions.json.vsctmp'
+    at c.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19235)
+    at m (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19345)
+    at t.hb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36685)
+    at t.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29033)
+    at async b.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:14899)
+    at async H.vb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:117665)
+2024-06-24 22:44:34.761 [info] Extension signature verification result for ms-vscode.cmake-tools: UnknownError. Executed: true. Duration: 23ms.
+2024-06-24 22:44:35.253 [info] Extracted extension to file:///home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42: ms-vscode.cmake-tools
+2024-06-24 22:44:35.266 [info] Renamed to /home/voxi0/.vscode/extensions/ms-vscode.cmake-tools-1.18.42
+2024-06-24 22:44:35.378 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/voxi0/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/voxi0/.vscode/extensions/extensions.json.vsctmp'
+    at c.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19235)
+    at m (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19345)
+    at t.hb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36685)
+    at t.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29033)
+    at async b.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:14899)
+    at async H.vb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:117665)
+2024-06-24 22:44:35.406 [info] Extension installed successfully: twxs.cmake vscode-userdata:/home/voxi0/.vscode/extensions/extensions.json
+2024-06-24 22:44:35.406 [info] Extension installed successfully: ms-vscode.cmake-tools vscode-userdata:/home/voxi0/.vscode/extensions/extensions.json
+2024-06-24 22:44:40.976 [info] Extension signature verification result for ms-vscode.cpptools: UnknownError. Executed: true. Duration: 33ms.
+2024-06-24 22:44:44.771 [info] Extracted extension to file:///home/voxi0/.vscode/extensions/ms-vscode.cpptools-1.20.5-linux-x64: ms-vscode.cpptools
+2024-06-24 22:44:44.785 [info] Renamed to /home/voxi0/.vscode/extensions/ms-vscode.cpptools-1.20.5-linux-x64
+2024-06-24 22:44:44.904 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/voxi0/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/voxi0/.vscode/extensions/extensions.json.vsctmp'
+    at c.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19235)
+    at m (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19345)
+    at t.hb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36685)
+    at t.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29033)
+    at async b.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:14899)
+    at async H.vb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:117665)
+2024-06-24 22:44:44.925 [info] Extension installed successfully: ms-vscode.cpptools vscode-userdata:/home/voxi0/.vscode/extensions/extensions.json
+2024-06-24 22:45:05.035 [info] Getting Manifest... jeff-hykin.better-cpp-syntax
+2024-06-24 22:45:05.061 [info] Installing extension: jeff-hykin.better-cpp-syntax vscode-userdata:/home/voxi0/.vscode/extensions/extensions.json
+2024-06-24 22:45:05.954 [info] Extension signature verification result for jeff-hykin.better-cpp-syntax: UnknownError. Executed: true. Duration: 9ms.
+2024-06-24 22:45:06.003 [info] Extracted extension to file:///home/voxi0/.vscode/extensions/jeff-hykin.better-cpp-syntax-1.17.2: jeff-hykin.better-cpp-syntax
+2024-06-24 22:45:06.011 [info] Renamed to /home/voxi0/.vscode/extensions/jeff-hykin.better-cpp-syntax-1.17.2
+2024-06-24 22:45:06.101 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/voxi0/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/voxi0/.vscode/extensions/extensions.json.vsctmp'
+    at c.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19235)
+    at m (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19345)
+    at t.hb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36685)
+    at t.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29033)
+    at async b.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:14899)
+    at async H.vb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:117665)
+2024-06-24 22:45:06.161 [info] Extension installed successfully: jeff-hykin.better-cpp-syntax vscode-userdata:/home/voxi0/.vscode/extensions/extensions.json

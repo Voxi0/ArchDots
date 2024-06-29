@@ -1,0 +1,10 @@
+2024-06-26 22:27:15.946 [info] update#setState idle
+2024-06-26 22:27:45.953 [info] update#setState checking for updates
+2024-06-26 22:27:46.019 [info] update#setState idle
+2024-06-26 23:27:45.963 [info] update#setState checking for updates
+2024-06-26 23:27:46.123 [info] update#setState idle
+2024-06-27 00:27:45.969 [info] update#setState checking for updates
+2024-06-27 00:27:46.187 [info] update#setState idle
+2024-06-27 01:27:45.981 [info] update#setState checking for updates
+2024-06-27 01:27:46.160 [info] update#setState idle
+2024-06-27 01:59:46.245 [info] Extension host with pid 2825 exited with code: 0, signal: unknown.

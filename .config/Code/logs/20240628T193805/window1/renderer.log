@@ -1,0 +1,45 @@
+2024-06-28 19:38:07.349 [info] Started local extension host with pid 1849.
+2024-06-28 19:38:07.726 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-06-28 19:38:11.085 [info] [perf] Render performance baseline is 122ms
+2024-06-28 19:38:23.538 [warning] No search provider registered for scheme: file, waiting
+2024-06-28 19:38:23.548 [info] Started local extension host with pid 2009.
+2024-06-28 19:38:24.792 [warning] Overlapping semantic tokens detected at lineNumber 10, column 37
+2024-06-29 13:22:16.861 [error] [Extension Host] [CMakeTools] 2024-06-29T12:22:16.859Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘main’:
+2024-06-29 13:22:16.864 [error] [Extension Host] [CMakeTools] 2024-06-29T12:22:16.860Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:17:30: warning: ISO C17 does not support the ‘%b’ gnu_printf format [-Wformat=]
+2024-06-29 13:22:16.867 [error] [Extension Host] [CMakeTools] 2024-06-29T12:22:16.860Z [error] [build]    17 |         fprintf(test_file, "%b", &test_ptr);
+2024-06-29 13:22:16.867 [error] [Extension Host] [CMakeTools] 2024-06-29T12:22:16.860Z [error] [build]       |                              ^
+2024-06-29 13:22:16.868 [error] [Extension Host] [CMakeTools] 2024-06-29T12:22:16.861Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:17:30: warning: format ‘%b’ expects argument of type ‘unsigned int’, but argument 3 has type ‘int **’ [-Wformat=]
+2024-06-29 13:22:16.868 [error] [Extension Host] [CMakeTools] 2024-06-29T12:22:16.862Z [error] [build]    17 |         fprintf(test_file, "%b", &test_ptr);
+2024-06-29 13:22:16.869 [error] [Extension Host] [CMakeTools] 2024-06-29T12:22:16.863Z [error] [build]       |                             ~^   ~~~~~~~~~
+2024-06-29 13:22:16.872 [error] [Extension Host] [CMakeTools] 2024-06-29T12:22:16.865Z [error] [build]       |                              |   |
+2024-06-29 13:22:16.873 [error] [Extension Host] [CMakeTools] 2024-06-29T12:22:16.865Z [error] [build]       |                              |   int **
+2024-06-29 13:22:16.874 [error] [Extension Host] [CMakeTools] 2024-06-29T12:22:16.865Z [error] [build]       |                              unsigned int
+2024-06-29 13:22:33.411 [error] [Extension Host] [CMakeTools] 2024-06-29T12:22:33.409Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘main’:
+2024-06-29 13:22:33.412 [error] [Extension Host] [CMakeTools] 2024-06-29T12:22:33.410Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:17:30: warning: format ‘%p’ expects argument of type ‘void *’, but argument 3 has type ‘int **’ [-Wformat=]
+2024-06-29 13:22:33.412 [error] [Extension Host] [CMakeTools] 2024-06-29T12:22:33.410Z [error] [build]    17 |         fprintf(test_file, "%p", &test_ptr);
+2024-06-29 13:22:33.413 [error] [Extension Host] [CMakeTools] 2024-06-29T12:22:33.411Z [error] [build]       |                             ~^   ~~~~~~~~~
+2024-06-29 13:22:33.414 [error] [Extension Host] [CMakeTools] 2024-06-29T12:22:33.411Z [error] [build]       |                              |   |
+2024-06-29 13:22:33.415 [error] [Extension Host] [CMakeTools] 2024-06-29T12:22:33.411Z [error] [build]       |                              |   int **
+2024-06-29 13:22:33.415 [error] [Extension Host] [CMakeTools] 2024-06-29T12:22:33.412Z [error] [build]       |                              void *
+2024-06-29 14:05:15.498 [error] [Extension Host] [CMakeTools] 2024-06-29T13:05:15.497Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘main’:
+2024-06-29 14:05:15.502 [error] [Extension Host] [CMakeTools] 2024-06-29T13:05:15.498Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:17:30: warning: format ‘%p’ expects argument of type ‘void *’, but argument 3 has type ‘int *’ [-Wformat=]
+2024-06-29 14:05:15.503 [error] [Extension Host] [CMakeTools] 2024-06-29T13:05:15.498Z [error] [build]    17 |         fprintf(test_file, "%p", test_ptr);
+2024-06-29 14:05:15.504 [error] [Extension Host] [CMakeTools] 2024-06-29T13:05:15.498Z [error] [build]       |                             ~^   ~~~~~~~~
+2024-06-29 14:05:15.504 [error] [Extension Host] [CMakeTools] 2024-06-29T13:05:15.498Z [error] [build]       |                              |   |
+2024-06-29 14:05:15.505 [error] [Extension Host] [CMakeTools] 2024-06-29T13:05:15.499Z [error] [build]       |                              |   int *
+2024-06-29 14:05:15.506 [error] [Extension Host] [CMakeTools] 2024-06-29T13:05:15.499Z [error] [build]       |                              void *
+2024-06-29 14:05:15.507 [error] [Extension Host] [CMakeTools] 2024-06-29T13:05:15.499Z [error] [build]       |                             %ls
+2024-06-29 15:26:18.083 [error] [Extension Host] [CMakeTools] 2024-06-29T14:26:18.076Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c: In function ‘main’:
+2024-06-29 15:26:18.093 [error] [Extension Host] [CMakeTools] 2024-06-29T14:26:18.077Z [error] [build] /home/voxi0/Desktop/C/learningC/src/main.c:17:30: warning: format ‘%x’ expects argument of type ‘unsigned int’, but argument 3 has type ‘int **’ [-Wformat=]
+2024-06-29 15:26:18.094 [error] [Extension Host] [CMakeTools] 2024-06-29T14:26:18.077Z [error] [build]    17 |         fprintf(test_file, "%x", &test_ptr);
+2024-06-29 15:26:18.094 [error] [Extension Host] [CMakeTools] 2024-06-29T14:26:18.078Z [error] [build]       |                             ~^   ~~~~~~~~~
+2024-06-29 15:26:18.100 [error] [Extension Host] [CMakeTools] 2024-06-29T14:26:18.078Z [error] [build]       |                              |   |
+2024-06-29 15:26:18.102 [error] [Extension Host] [CMakeTools] 2024-06-29T14:26:18.079Z [error] [build]       |                              |   int **
+2024-06-29 15:26:18.106 [error] [Extension Host] [CMakeTools] 2024-06-29T14:26:18.079Z [error] [build]       |                              unsigned int
+2024-06-29 15:50:35.674 [info] Started local extension host with pid 25278.
+2024-06-29 15:50:36.074 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-06-29 15:50:39.191 [info] [perf] Render performance baseline is 41ms
+2024-06-29 15:50:47.006 [info] Started local extension host with pid 25335.
+2024-06-29 15:50:49.742 [info] [perf] Render performance baseline is 62ms
+2024-06-29 15:50:50.567 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-06-29 15:51:51.233 [warning] Semantic token with invalid length detected at lineNumber 1, column 10

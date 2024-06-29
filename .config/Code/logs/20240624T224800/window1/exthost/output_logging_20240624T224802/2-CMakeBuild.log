@@ -1,0 +1,37 @@
+[proc] Executing command: /usr/bin/cmake --version
+[proc] Executing command: /usr/bin/cmake -E capabilities
+[variant] Loaded new set of variants
+[kit] Successfully loaded 1 kits from /home/voxi0/.local/share/CMakeTools/cmake-tools-kits.json
+[proc] The command: ninja --version failed with error: Error: spawn ninja ENOENT
+[proc] The command: ninja-build --version failed with error: Error: spawn ninja-build ENOENT
+[proc] The command: ninja --version failed with error: Error: spawn ninja ENOENT
+[proc] The command: ninja-build --version failed with error: Error: spawn ninja-build ENOENT
+[rollbar] Unhandled exception: Unhandled Promise rejection: setDefaultTarget Error: No cache object found {}
+[main] Building folder: HyprSettings 
+[proc] The command: ninja --version failed with error: Error: spawn ninja ENOENT
+[proc] The command: ninja-build --version failed with error: Error: spawn ninja-build ENOENT
+[rollbar] Unhandled exception: Unhandled Promise rejection: cpack Error: No cache object found {}
+[proc] Executing command: /usr/bin/gcc -v
+[proc] The command: ninja --version failed with error: Error: spawn ninja ENOENT
+[proc] The command: ninja-build --version failed with error: Error: spawn ninja-build ENOENT
+[rollbar] Unhandled exception: Unhandled Promise rejection: selectKit Error: No cache object found {}
+[proc] Executing command: /usr/bin/gcc -v
+[proc] The command: ninja --version failed with error: Error: spawn ninja ENOENT
+[proc] The command: ninja-build --version failed with error: Error: spawn ninja-build ENOENT
+[rollbar] Unhandled exception: Unhandled Promise rejection: selectKit Error: No cache object found {}
+[proc] Executing command: /usr/bin/gcc -v
+[proc] The command: ninja --version failed with error: Error: spawn ninja ENOENT
+[proc] The command: ninja-build --version failed with error: Error: spawn ninja-build ENOENT
+[rollbar] Unhandled exception: Unhandled Promise rejection: Changing build variant Error: No cache object found {}
+[proc] Executing command: /usr/bin/gcc -v
+[proc] The command: ninja --version failed with error: Error: spawn ninja ENOENT
+[proc] The command: ninja-build --version failed with error: Error: spawn ninja-build ENOENT
+[rollbar] Unhandled exception: Unhandled Promise rejection: setVariant Error: No cache object found {}
+[proc] Executing command: /usr/bin/gcc -v
+[proc] The command: ninja --version failed with error: Error: spawn ninja ENOENT
+[proc] The command: ninja-build --version failed with error: Error: spawn ninja-build ENOENT
+[rollbar] Unhandled exception: Unhandled Promise rejection: setDefaultTarget Error: No cache object found {}
+[proc] Executing command: /usr/bin/gcc -v
+[proc] The command: ninja --version failed with error: Error: spawn ninja ENOENT
+[proc] The command: ninja-build --version failed with error: Error: spawn ninja-build ENOENT
+[rollbar] Unhandled exception: Unhandled Promise rejection: workflow Error: No cache object found {}
